@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className=" main-footer bg-primary w-full">
-      <div className="footer-up max-w-5xl mx-auto flex justify-between py-12">
-        <div className="footer-imp-links text-white list-none">
+    <footer className=" main-footer bg-primary w-full w-90">
+      <div className="footer-up w-[90vw] max-w-5xl mx-auto flex justify-between py-12  md:flex-row flex-col ">
+        <div className="footer-imp-links text-white  hidden md:block">
           <div className="mb-7">
             <p className="footer-head-name">
               dr. ram saran garg
@@ -25,7 +25,7 @@ const Footer = () => {
           </p>
         </div>
         {/* gfdg */}
-        <div className="footer-imp-links text-white list-none">
+        <div className="footer-imp-links text-white list-none hidden lg:block ">
           <h1 className="mb-7 text-lg font-semibold">Important Links</h1>
           <li className="font-light">Appointment</li>
           <li className="font-light">Doctors</li>
@@ -33,21 +33,23 @@ const Footer = () => {
           <li className="font-light">About Us</li>
         </div>
         <div className="footer-contact text-white list-none">
-          <h1 className="mb-7 text-lg font-semibold">Contact Us</h1>
+          <h1 className=" mb-2 md:mb-7 text-lg font-semibold">Contact Us</h1>
           <li className="font-light">Call: (237) 681-812-255</li>
           <li className="font-light">Email: fildineesoe@gmail.com</li>
           <li className="font-light">Address: 0123 Some place</li>
           <li className="font-light">India</li>
         </div>
         <div className="footer-contact text-white list-none">
-          <h1 className="mb-7 text-lg font-semibold">Newsletter</h1>
+          <h1 className="mb-2 md:mb-7 mt-4 text-lg md:mt-0 font-semibold">
+            Newsletter
+          </h1>
           <div
             id="newsletter-btn"
-            className="bg-accent   py-1.5  text-primary rounded w-64 flex justify-around items-center "
+            className="bg-accent   py-1.5  text-primary rounded w-60 flex justify-evenly items-center "
           >
             <form action="">
               <input
-                type="text"
+                type="email"
                 placeholder="Enter your email address"
                 className="newsletter-input bg-accent text-primary border-none  "
               />
@@ -59,10 +61,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="bg-accent py-0.1 my-2 max-w-5xl mx-auto" />
+      <hr className="bg-accent py-0.1 my-2 w-[90vw] max-w-5xl mx-auto" />
 
-      <div className="footer-social flex justify-between  items-center  max-w-5xl mx-auto pb-8 pt-4">
-        <span className="text-white font-light text-sm ">
+      <div className="footer-social flex  justify-between  items-center w-[90vw] max-w-5xl mx-auto pb-8 pt-4 md:flex-row flex-col">
+        <span className="text-white font-light text-sm text-center ">
           © 2022 Blockchain Research Lab, All Rights Reserved
         </span>
         <div className="flex ">
