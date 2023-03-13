@@ -20,6 +20,7 @@
 }
 .newsletter-input::placeholder {
   color: #1f2b6c;
+  letter-spacing: 0;
 }
 .main-footer {
   line-height: 28px;
