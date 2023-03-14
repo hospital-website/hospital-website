@@ -1,0 +1,27 @@
+.footer-head-name {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  /* Accent */
+
+  color: #bfd2f8;
+}
+.footer-head-slogan {
+  font-size: 18px;
+}
+.newsletter-input {
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+}
+.newsletter-input::placeholder {
+  color: #1f2b6c;
+  letter-spacing: 0;
+}
+.main-footer {
+  line-height: 28px;
+}
