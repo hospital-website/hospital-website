@@ -126,9 +126,8 @@ const NavBar = () => {
                 </button>
             </div>
         </article>
-
     </header>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
