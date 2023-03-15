@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
     const [ search, setSearch ] = useState(false)
     const [ isMenu, setIsMenu ] = useState(false)
+
   return (
     <header>
 
