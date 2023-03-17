@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FiClock, FiPhoneCall, FiSearch } from 'react-icons/fi'
+import { MdSearch, MdSearchOff } from 'react-icons/md'
 import { GrLocation } from 'react-icons/gr'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
@@ -7,6 +8,7 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
     const [ search, setSearch ] = useState(false)
     const [ isMenu, setIsMenu ] = useState(false)
+
   return (
     <header>
 
@@ -79,23 +81,23 @@ const NavBar = () => {
                     <p className="nav-link capitalize font-work text-white font-light hover:font-medium hover:text-accent">contact</p>
                 </Link>
                 </nav> : 
-                <nav className='ham grid absolute top-44 md:top-64 bg-accent w-full h-fit justify-center text-center left-0 py-4 gap-2'>
-                <Link to={'/'} >
+                <nav className='ham grid absolute top-44 md:top-64 bg-accent w-full h-fit justify-center text-center left-0 py-4 gap-2 z-10'>
+                <Link to={'/'} onClick={() => setIsMenu(false)} >
                     <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">Home</p>
                 </Link>
-                <Link to={'/about'} >
+                <Link to={'/about'} onClick={() => setIsMenu(false)} >
                     <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">about us</p>
                 </Link>
-                <Link to={'/services'} >
+                <Link to={'/services'} onClick={() => setIsMenu(false)} >
                     <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">services</p>
                 </Link>
-                <Link to={'/doctors'} >
+                <Link to={'/doctors'} onClick={() => setIsMenu(false)} >
                     <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">doctors</p>
                 </Link>
-                <Link to={'/news'} >
+                <Link to={'/news'} onClick={() => setIsMenu(false)} >
                     <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">news</p>
                 </Link>
-                <Link to={'/contact'} >
+                <Link to={'/contact'} onClick={() => setIsMenu(false)} >
                     <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">contact</p>
                 </Link>
                 <button id="appoint-btn" className='bg-primary px-8 py-1.5 capitalize text-accent rounded-full font-semibold'>
@@ -107,11 +109,11 @@ const NavBar = () => {
             <div id='nav-side' className='flex gap-5 items-center'>
                 <div className="search flex items-center gap-5 md:gap-2">
                     {
-                        search ? <input type="search" className='rounded-full py-1.5 px-3 font-work text-sm outline-none w-[70vw] md:w-[100%]' placeholder='Search...'/> : null
+                        search ? <input type="search" className='rounded-full py-1.5 px-3 font-work text-sm outline-none w-[75vw] md:w-[100%]' placeholder='Search...'/> : null
                     }
                     <button id='search-btn' onClick={() => setSearch(!search)}>
                         {
-                            search ? <AiOutlineClose size={20} color={'white'} /> : <FiSearch size={25} color={'white'} />
+                            search ? <MdSearchOff size={20} color={'white'} /> : <MdSearch size={25} color={'white'} />
                         }
                     </button>
                     <button id='search-btn' className='md:hidden' onClick={() => setIsMenu(!isMenu)}>
