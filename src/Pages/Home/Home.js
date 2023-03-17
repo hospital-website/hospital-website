@@ -1,12 +1,13 @@
-import { AiOutlineCalendar } from 'react-icons/ai'
+import { AiOutlineCalendar, AiOutlineArrowRight } from 'react-icons/ai'
 import { IoIosPeople } from 'react-icons/io'
 import { BsCashStack } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return <>
     {/* HERO SECTION */}
 
-    <section id="hero" className='bg-hero-mobile bg-contain sm:bg-hero w-full h-[60vh] bg-no-repeat sm:bg-cover relative'>
+    <section id="hero" className='bg-hero-mobile bg-contain sm:bg-hero w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative'>
       
       {/* HERO TEXT CONTENT */}
 
@@ -43,6 +44,23 @@ const Home = () => {
           <span>Order Medicine Online</span> 
           <span><BsCashStack size={35} /></span>
         </button>
+      </article>
+    </section>
+
+    {/* WELCOME TO MEDICAL SECTION  */}
+
+    <section id="welcome" className='gird place-items-center w-full py-10'>
+      <article id="hero-text" className='text-center mx-auto w-[90%] md:py-20'>
+        <p id="pre-text" className='font-work uppercase text-secondary font-semibold text-sm md:text-lg'>welcome to medical</p>
+        <h2 id="hero-text" className='font-yeseva text-2xl md:text-5xl text-primary'>A Great Place to Receive Care</h2>
+        <p className='text-base text-center font-work'>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab provident atque rem at dolorum natus blanditiis non, exercitationem fugit accusantium.
+        </p>
+        <Link to={'/about'}>
+          <p className='capitalize font-normal hover:font-medium hover:underline flex gap-2 justify-center items-center font-work text-secondary text-base'>
+            lear more <AiOutlineArrowRight color={'#1F2B6C'} />
+          </p>
+        </Link>
       </article>
     </section>
 
