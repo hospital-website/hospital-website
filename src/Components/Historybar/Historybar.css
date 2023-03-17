@@ -1,0 +1,29 @@
+.historybar {
+  width: 100vw;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+.historybar::after {
+  content: "";
+  background: url(/src/images/doctorsgrp.png) center -100px no-repeat;
+  background-size: cover;
+  background-position-y: -10vw;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 500px) {
+  .historybar::after {
+    background-position-y: -5vw;
+  }
+  .historybar {
+    height: 30vw;
+  }
+}
