@@ -13,7 +13,10 @@ module.exports = {
         'primary': '#1F2B6C',
         'secondary': '#159EEC',
         'accent': '#BFD2F8',
-      }
+      },
+      backgroundImage: {
+        'hero-bg': "url('/public/image_assets/hero-bg.png')",
+      },
     },
   },
   plugins: [],
