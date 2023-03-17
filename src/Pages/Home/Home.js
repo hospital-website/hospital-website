@@ -1,9 +1,14 @@
 import { AiOutlineCalendar, AiOutlineArrowRight } from 'react-icons/ai'
 import { IoIosPeople } from 'react-icons/io'
-import { BsCashStack } from 'react-icons/bs'
+import { BsCashStack, BsHeartPulse } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import { PageHead, SpecialCard } from '../../Components/Assets' 
+
 
 const Home = () => {
+
+  const homeBannerSrc = '/image_assets/home-banner.svg'
+
   return <>
     {/* HERO SECTION */}
 
@@ -51,8 +56,12 @@ const Home = () => {
 
     <section id="welcome" className='gird place-items-center w-full py-10'>
       <article id="hero-text" className='grid gap-2 text-center mx-auto w-[90%] max-w-3xl md:py-20'>
-        <p id="pre-text" className='font-work uppercase text-secondary font-semibold text-sm md:text-lg'>welcome to medical</p>
-        <h2 id="hero-text" className='font-yeseva text-2xl md:text-5xl text-primary'>A Great Place to Receive Care</h2>
+
+        <PageHead
+          subtitle={'welcome to medical'}
+          title={'A Great Place to Receive Care'}
+        />
+
         <p className='text-base text-center font-work'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab provident atque rem at dolorum natus blanditiis non, exercitationem fugit accusantium.
         </p>
@@ -61,6 +70,43 @@ const Home = () => {
             lear more <AiOutlineArrowRight color={'#1F2B6C'} />
           </p>
         </Link>
+      </article>
+    </section>
+
+    <img src={homeBannerSrc} alt='home-banner-image' className='mx-auto' />
+
+    {/* OUR SERVICES SECTION */}
+
+    <section id="services" className='py-10'>
+      <article className='mx-auto text-center'>
+        <PageHead subtitle={'care you can believe in'} title={'Our Services'} />
+      </article>
+    </section>
+
+    {/* OUR SPECIALTIES SECTION */}
+    <section id="specialty" className='py-10'>
+      <article className='text-center mx-auto'>
+        <PageHead subtitle={'always caring'} title={'Our Specialties'} />
+      </article>
+
+      
+      {/* specialty grids */}
+
+      <article className='grid md:grid-cols-4 md:grid-rows-3 grid-cols-3 grid-rows-4 gap-0 w-[24rem] md:w-[48rem] mx-auto py-10 '>
+        <SpecialCard text={'neurology'} />
+        <SpecialCard text={'bones'} />
+        <SpecialCard text={'oncology'} />
+        <SpecialCard text={'otorhinolaryngology'} />
+        
+        <SpecialCard text={'ophthalmology'} />
+        <SpecialCard text={'cardiovascular'} />
+        <SpecialCard text={'pulmonology'} />
+        <SpecialCard text={'renal medicine'} />
+
+        <SpecialCard text={'gastroenterology'} />
+        <SpecialCard text={'urology'} />
+        <SpecialCard text={'dermatology'} />
+        <SpecialCard text={'gynecology'} />
       </article>
     </section>
 
