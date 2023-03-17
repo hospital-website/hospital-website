@@ -50,7 +50,7 @@ const Home = () => {
     {/* WELCOME TO MEDICAL SECTION  */}
 
     <section id="welcome" className='gird place-items-center w-full py-10'>
-      <article id="hero-text" className='text-center mx-auto w-[90%] md:py-20'>
+      <article id="hero-text" className='grid gap-2 text-center mx-auto w-[90%] max-w-3xl md:py-20'>
         <p id="pre-text" className='font-work uppercase text-secondary font-semibold text-sm md:text-lg'>welcome to medical</p>
         <h2 id="hero-text" className='font-yeseva text-2xl md:text-5xl text-primary'>A Great Place to Receive Care</h2>
         <p className='text-base text-center font-work'>
