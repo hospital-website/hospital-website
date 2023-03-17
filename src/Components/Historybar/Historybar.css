@@ -7,7 +7,7 @@
 
 .historybar::after {
   content: "";
-  background: url(/src/images/doctorsgrp.png) center -100px no-repeat;
+  background: url(/public/image_assets/doctorsgrp.png) center -100px no-repeat;
   background-size: cover;
   background-position-y: -10vw;
   opacity: 0.5;

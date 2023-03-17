@@ -4,7 +4,7 @@ const Historybar = (props) => {
   // console.log(props.page);
   return (
     <div>
-      <section className=" historybar  w-full  ">
+      <section className=" historybar  w-full  z-[-1]">
         <div className="about-main flex flex-col justify-center w-[90vw] h-full max-w-5xl m-auto">
           <p className="text-[12px] md:text-[18px] text-primary md:mb-[-10px]">
             Home / {props.page}
