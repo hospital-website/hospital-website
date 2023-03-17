@@ -15,7 +15,8 @@ module.exports = {
         'accent': '#BFD2F8',
       },
       backgroundImage: {
-        'hero-bg': "url('/public/image_assets/hero-bg.png')",
+        'hero': "url('/public/image_assets/hero-bg.png')",
+        'hero-mobile': "url('/public/image_assets/hero-bg-mobile.png')",
       },
     },
   },

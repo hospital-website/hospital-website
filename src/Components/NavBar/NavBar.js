@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FiClock, FiPhoneCall, FiSearch } from 'react-icons/fi'
+import { FiClock, FiPhoneCall } from 'react-icons/fi'
 import { MdSearch, MdSearchOff } from 'react-icons/md'
 import { GrLocation } from 'react-icons/gr'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
