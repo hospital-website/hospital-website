@@ -6,6 +6,7 @@ import { BiDonateBlood } from 'react-icons/bi'
 import { GiHeartPlus, GiMedicalPackAlt } from 'react-icons/gi'
 import { Link } from 'react-router-dom'
 import { Form, PageHead, SpecialCard } from '../../Components/Assets' 
+import ContactComp from '../../Components/ContactComp/ContactComp'
 
 
 const Home = () => {
@@ -161,6 +162,14 @@ const Home = () => {
       </article>
 
       <Form />
+    </section>
+
+    {/* CONTACT SECTION */}
+    <section id="contact" className='py-20'>
+      <article className='text-center mx-auto'>
+        <PageHead subtitle={'get in touch'} title={'Contact'} />
+      </article>
+      <ContactComp />
     </section>
 
   </>
