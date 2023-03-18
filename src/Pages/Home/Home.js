@@ -5,7 +5,7 @@ import { CiBandage } from 'react-icons/ci'
 import { BiDonateBlood } from 'react-icons/bi'
 import { GiHeartPlus, GiMedicalPackAlt } from 'react-icons/gi'
 import { Link } from 'react-router-dom'
-import { PageHead, SpecialCard } from '../../Components/Assets' 
+import { Form, PageHead, SpecialCard } from '../../Components/Assets' 
 
 
 const Home = () => {
@@ -133,7 +133,7 @@ const Home = () => {
       
       {/* specialty grids */}
 
-      <article className='grid md:grid-cols-4 md:grid-rows-3 grid-cols-3 grid-rows-4 gap-0 w-[24rem] md:w-[48rem] mx-auto py-10 '>
+      <article className='grid md:grid-cols-4 md:grid-rows-3 grid-cols-3 grid-rows-4 gap-0 w-[23rem] md:w-[48rem] mx-auto py-10 '>
         <SpecialCard text={'neurology'} />
         <SpecialCard text={'bones'} />
         <SpecialCard text={'oncology'} />
@@ -149,6 +149,18 @@ const Home = () => {
         <SpecialCard text={'dermatology'} />
         <SpecialCard text={'gynecology'} />
       </article>
+    </section>
+
+    {/* APPOINTMENT SECTION */}
+  <section id='appointment' className='bg-appointment h-full flex justify-evenly items-center py-5'>
+      <article className='hidden md:block w-[30%]'>
+        <p className='font-yeseva text-secondary text-3xl'>Book an Appointment</p>
+        <p className="font-work text-base text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga incidunt asperiores aperiam corrupti, deleniti officia doloremque id! Voluptas, impedit.
+        </p>
+      </article>
+
+      <Form />
     </section>
 
   </>

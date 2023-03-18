@@ -17,6 +17,7 @@ module.exports = {
       backgroundImage: {
         'hero': "url('/public/image_assets/hero-bg.png')",
         'hero-mobile': "url('/public/image_assets/hero-bg-mobile.png')",
+        'appointment': "url('/public/image_assets/appointment.png')",
       },
     },
   },
