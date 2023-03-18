@@ -109,7 +109,7 @@ const NavBar = () => {
             <div id='nav-side' className='flex gap-5 items-center'>
                 <div className="search flex items-center gap-5 md:gap-2">
                     {
-                        search ? <input type="search" className='rounded-full py-1.5 px-3 font-work text-sm outline-none w-[75vw] md:w-[100%]' placeholder='Search...'/> : null
+                        search ? <input type="search" className='rounded-full py-1.5 px-3 font-work text-sm outline-none w-[70vw] md:w-[100%]' placeholder='Search...'/> : null
                     }
                     <button id='search-btn' onClick={() => setSearch(!search)}>
                         {
