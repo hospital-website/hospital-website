@@ -41,7 +41,9 @@ const Home = () => {
           </h2>
 
           <button className="bg-accent text-primary capitalize font-work text-base rounded-full py-2 px-6 font-bold justify-self-center md:justify-self-start">
-            our services
+            <Link to={'/services'}>
+              our services
+            </Link>
           </button>
         </article>
 
@@ -82,16 +84,15 @@ const Home = () => {
           className="grid gap-2 text-center mx-auto w-[90%] max-w-3xl md:py-20"
         >
           <PageHead
-            subtitle={"welcome to medical"}
+            subtitle={"welcome to DR.RS Garg (IG) Hospital"}
             title={"A Great Place to Receive Care"}
           />
 
           <p className="text-base text-center font-work">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-            provident atque rem at dolorum natus blanditiis non, exercitationem
-            fugit accusantium.
+            Dr. Ram Saran Garg (Indo-German) Hospital strives to deliver
+            personalized, patient-centered healthcare and best quality services.
           </p>
-          <Link to={"/about"}>
+          <Link to={"/services"}>
             <p className="capitalize font-normal hover:font-medium hover:underline flex gap-2 justify-center items-center font-work text-secondary text-base">
               lear more <AiOutlineArrowRight color={"#1F2B6C"} />
             </p>
@@ -148,22 +149,28 @@ const Home = () => {
             </h5>
             <ul className="grid list-none grid-cols-2 justify-center px-7 font-work text-lg font-medium">
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                A passion for healing
+                Multispecialty OPD
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                5-Star Care
+                24-hours service
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                All our best
+                Fully equipped OT
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Believe in Us
+                Path Lab, Minor OT
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                A legacy of excellence
+                ICU with Ventilator
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Always Caring
+                NICU with Infant Warmer
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Ultrasound and X-Ray
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Private Wards
               </li>
             </ul>
 

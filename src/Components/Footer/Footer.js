@@ -27,7 +27,7 @@ const Footer = () => {
         {/* gfdg */}
         <div className="footer-imp-links text-white list-none hidden lg:block ">
           <h1 className="mb-7 text-lg font-semibold">Important Links</h1>
-          <li className="font-light">Appointment</li>
+          {/* <li className="font-light">Appointment</li> */}
           <li className="font-light">Doctors</li>
           <li className="font-light">Services</li>
           <li className="font-light">About Us</li>
@@ -35,8 +35,9 @@ const Footer = () => {
         <div className="footer-contact text-white list-none">
           <h1 className=" mb-2 md:mb-7 text-lg font-semibold">Contact Us</h1>
           <li className="font-light">Call: (0120) 2824087</li>
-          <li className="font-light">Email: fildineesoe@gmail.com</li>
-          <li className="font-light">Address: 0123 Some place</li>
+          <li className="font-light">Email: rsgargig@gmail.com</li>
+          <li className="font-light">Address: Kazipura-Dasna Road</li>
+          <li className="font-light">Ghaziabad-201009</li>
           <li className="font-light">India</li>
         </div>
         {/* <div className="footer-contact text-white list-none">

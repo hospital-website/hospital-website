@@ -21,22 +21,7 @@ const App = () => {
         <Route path="/services" element={<Srevices />} />
         <Route path="/news" element={<News />} />
       </Routes>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       <Footer />
     </>
   );

@@ -6,7 +6,7 @@ const Doctors = () => {
   return (
     <div>
       <Historybar page="doctors" pageData="Our Doctors" />
-      <DoctorCard />
+      {/* <DoctorCard /> */}
     </div>
   );
 };
