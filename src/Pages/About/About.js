@@ -23,32 +23,32 @@ const About = () => {
           <p className="text-[30px] sm:text-[42px] md:text-[48px] font-yeseva text-primary mb-4">
             Best Care For Your Good Health
           </p>
-          <div className="grid grid-cols-2 gap-3 md:gap-4 mb-8 ">
-            <div className=" flex flex-row items-center">
-              <div className="inline-block bg-secondary rounded-full w-[16px] h-[16px] mx-[12px]"></div>
-              <p className="text-[18px]">A passion of healing</p>
-            </div>
-            <div className=" flex flex-row items-center">
-              <div className="inline-block bg-secondary rounded-full w-[16px] h-[16px] mx-[12px]"></div>
-              <p className="text-[18px]">5-Star care</p>
-            </div>
-            <div className=" flex flex-row items-center">
-              <div className="inline-block bg-secondary rounded-full w-[16px] h-[16px] mx-[12px]"></div>
-              <p className="text-[18px]">All our best</p>
-            </div>
-            <div className=" flex flex-row items-center">
-              <div className="inline-block bg-secondary rounded-full w-[16px] h-[16px] mx-[12px]"></div>
-              <p className="text-[18px]">Believe in Us</p>
-            </div>
-            <div className=" flex flex-row items-center">
-              <div className="inline-block bg-secondary rounded-full w-[16px] h-[16px] mx-[12px]"></div>
-              <p className="text-[18px]">Always caring</p>
-            </div>
-            <div className=" flex flex-row items-center">
-              <div className="inline-block bg-secondary rounded-full w-[16px] h-[16px] mx-[12px]"></div>
-              <p className="text-[18px]">A legacy of Excellence</p>
-            </div>
-          </div>
+          <ul className="grid list-none grid-cols-2 justify-center px-7 font-work text-lg font-medium">
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Multispecialty OPD
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                24-hours service
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Fully equipped OT
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Path Lab, Minor OT
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                ICU with Ventilator
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                NICU with Infant Warmer
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Ultrasound and X-Ray
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Private Wards
+              </li>
+            </ul>
           <p className="text-[16px]">
             Dr. Ram Saran Garg (Indo-German) Hospital is run by a charitable
             truse, Dr. Ram Saran Garg (Indo-German) Medical Centre, The Trust
@@ -101,14 +101,11 @@ const About = () => {
               <label htmlFor="qs1" id="qslide1">
                 <div className="about-quote">
                   <p className="text-[20px] text-center text-white max-w-3xl mx-auto">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consectetur beatae culpa aliquam sit labore recusandae non
-                    cumque tempora alias inventore consequatur cum esse ut iure
-                    quis in, unde volupta1
+                    The practice of medicine is an art, not a trade; a calling, not a business; a calling in which your heart will be exercised equally with your head. 
                   </p>
                   <hr className="h-[1px] border-none bg-accent m-auto w-[20vw] my-[18px]" />
                   <p className="text-[19px] text-accent text-center mb-[64px]">
-                    John Doe
+                    Sir William Osler
                   </p>
                 </div>
               </label>

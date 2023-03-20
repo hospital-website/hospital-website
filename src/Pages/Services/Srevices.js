@@ -1,10 +1,116 @@
 import React from "react";
+import { BiDonateBlood } from "react-icons/bi";
+import { CiBandage } from "react-icons/ci";
+import { GiHeartPlus, GiMedicalPackAlt } from "react-icons/gi";
+import { PageHead, SpecialCard } from "../../Components/Assets";
+import ContactComp from "../../Components/ContactComp/ContactComp";
 import Historybar from "../../Components/Historybar/Historybar";
 
 const Srevices = () => {
+
+  const serviceOneSrc = "/image_assets/service-01.png";
+  const serviceTwoSrc = "/image_assets/service-02.png";
+
   return (
     <div>
       <Historybar page="Services" pageData="Our Services" />
+
+      <section id="services" className="py-20">
+        <article className="mx-auto text-center">
+          <PageHead
+            subtitle={"care you can believe in"}
+            title={"Our Services"}
+          />
+        </article>
+
+        <article className="flex justify-center py-20 px-10  ">
+          {/* Grid Elements */}
+          <div className="md:grid mx-auto md:w-fit w-64 border border-gray-300 rounded-lg">
+            <div className="grid    md:grid-flow-col md:grid-cols-1 md:grid-rows-4 grid-cols-2 grid-rows-2">
+              <SpecialCard
+                cl={"aspect-[16/9] w-32 py-5"}
+                text={"Free checkup"}
+                icon={<CiBandage color="#159EEC" size={30} />}
+              />
+              <SpecialCard
+                cl={"aspect-[16/9] w-32 py-5"}
+                text={"cardiogram"}
+                icon={<GiHeartPlus color="#159EEC" size={30} />}
+              />
+              <SpecialCard
+                cl={"aspect-[16/9] w-32 py-5"}
+                text={"dna testing"}
+                icon={<GiMedicalPackAlt color="#159EEC" size={30} />}
+              />
+              <SpecialCard
+                cl={"aspect-[16/9] w-32 py-5"}
+                text={"blood bank"}
+                icon={<BiDonateBlood color="#159EEC" size={30} />}
+              />
+            </div>
+            <button className="bg-primary text-accent font-work capitalize text-base rounded-b-lg py-1 md:py-0 w-full">
+              view all
+            </button>
+          </div>
+
+          {/* Text Elements */}
+          <div className="hidden md:grid w-[50vw] mx-auto">
+            <h5 className="font-work text-2xl font-semibold text-left  ">
+              A passion for putting patients first.
+            </h5>
+            <ul className="grid list-none grid-cols-2 justify-center px-7 font-work text-lg font-medium">
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                A passion for healing
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                5-Star Care
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                All our best
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Believe in Us
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                A legacy of excellence
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Always Caring
+              </li>
+            </ul>
+
+            <p className="font-work text-base font-normal">
+              The hospital not only renders high quality medical servies at a
+              nominal cost that any class of society can afford, it also holds
+              free medical camps in the neighbouring villages. The motto of Dr.
+              Ram saran Garg (Indo-German) Hospital is to serve humanity be
+              extending selfless, impartial and secular services.
+            </p>
+            <p className="font-work text-base font-normal">
+              The hospital not only renders high quality medical servies at a
+              nominal cost that any class of society can afford, it also holds
+              free medical camps in the neighbouring villages. The motto of Dr.
+              Ram saran Garg (Indo-German) Hospital is to serve humanity be
+              extending selfless, impartial and secular services.
+            </p>
+          </div>
+
+          {/* Images */}
+          <div className="hidden md:grid gap-2">
+            <img src={serviceOneSrc} alt="servicing-image" />
+            <img src={serviceTwoSrc} alt="servicing-image" />
+          </div>
+        </article>
+      </section>
+
+
+<section id="contact" className="py-20">
+        <article className="text-center mx-auto">
+          <PageHead subtitle={"get in touch"} title={"Contact"} />
+        </article>
+        <ContactComp />
+      </section>
+
     </div>
   );
 };

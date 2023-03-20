@@ -34,7 +34,7 @@ const NavBar = () => {
               <h3 className="font-work font-medium uppercase text-primary">
                 Emergency
               </h3>
-              <h4 className="font-work text-secondary">(0120) 681-812-25</h4>
+              <h4 className="font-work text-secondary">(0120) 2824087</h4>
             </div>
           </div>
           <div className="h-top-info-container flex items-center px-0 md:px-2">
@@ -107,11 +107,12 @@ const NavBar = () => {
                 news
               </p>
             </Link>
-            <Link to={"/contact"}>
+
+            {/* <Link to={"/contact"}>
               <p className="nav-link capitalize font-work text-white font-light hover:font-medium hover:text-accent">
                 contact
               </p>
-            </Link>
+            </Link> */}
           </nav>
         ) : (
           <nav className="ham grid absolute top-44 md:top-64 bg-accent w-full h-fit justify-center text-center left-0 py-6 gap-3 z-10">
