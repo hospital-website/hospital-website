@@ -18,7 +18,7 @@ const About = () => {
 
         <div className="about-intro-text md:ml-8 ">
           <p className="text-secondary uppercase font-[16px] md:font-[18px] font-bold tracking-[0.2rem]">
-            welcome to hospital name
+            dr.RS Garg indo-german hospital
           </p>
           <p className="text-[30px] sm:text-[42px] md:text-[48px] font-yeseva text-primary mb-4">
             Best Care For Your Good Health
@@ -50,16 +50,16 @@ const About = () => {
             </div>
           </div>
           <p className="text-[16px]">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            possimus itaque vel mollitia ut excepturi culpa eveniet obcaecati
-            laborum, labore dolor accusantium delectus cum optio qui pariatur in
-            ex voluptates dolore voluptas blanditiis aspernatur! Culpa accusamus
-            sapiente officiis quos.
+            Dr. Ram Saran Garg (Indo-German) Hospital is run by a charitable
+            truse, Dr. Ram Saran Garg (Indo-German) Medical Centre, The Trust
+            was established in 1985. The Trust run a 60 bedded multispecility
+            hospital & Trauma Centre at Dasna, Ghaziabad and a miltispecility
+            Polyslinic with Day Care at Raj Nagar, Ghaziabad.
           </p>
           <p className="text-[16px] mt-8">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-            cupiditate dicta eveniet nobis facere, cumque dolorem impedit.
-            Praesentium, alias vitae. alias vitae. vitae.
+            The hospital has 11 doctors including consultants in the fields of
+            Internal Medicine, Pediatrics, Gynaecology, Radiology, Pathology and
+            General Surgery in addition to resident doctors.
           </p>
         </div>
       </section>
