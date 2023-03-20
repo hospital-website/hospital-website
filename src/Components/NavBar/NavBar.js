@@ -6,7 +6,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const [search, setSearch] = useState(false);
+  // const [search, setSearch] = useState(false);
   const [isMenu, setIsMenu] = useState(false);
 
   return (
@@ -24,7 +24,7 @@ const NavBar = () => {
 
         <div
           id="h-top-info"
-          className="flex justify-center flex-wrap gap-5 min-w-[442px]"
+          className="grid gap-1 md:grid-flow-row md:gap-5 md:grid-cols-3 md:grid-rows-1 grid-cols-2 grid-rows-2"
         >
           <div className="h-top-info-container flex items-center px-0 md:px-2">
             <div className="icon px-2">
@@ -46,11 +46,11 @@ const NavBar = () => {
                 work hours
               </h3>
               <h4 className="font-work text-secondary capitalize">
-                09:00 - 20:00 everyday
+                09:00-20:00 everyday
               </h4>
             </div>
           </div>
-          <div className="h-top-info-container flex items-center px-0 md:px-2">
+          <div className="h-top-info-container flex items-center px-0 md:px-2 col-span-2 md:col-span-1 mx-auto">
             <div className="icon px-2">
               <GrLocation size={25} />
             </div>
@@ -71,16 +71,15 @@ const NavBar = () => {
         id="h-bottom"
         className="bg-primary w-full flex justify-between px-2 md:px-20 items-center md:py-5 py-3"
       >
-        {!search && (
-          <div id="h-top-name" className="md:hidden">
-            <h1 className="font-yeseva text-sm text-accent uppercase">
-              dr. ram saran garg
-            </h1>
-            <h1 className="font-yeseva text-sm text-white uppercase">
-              indo-german hospital
-            </h1>
-          </div>
-        )}
+        <div id="h-top-name" className="md:hidden">
+          <h1 className="font-yeseva text-sm text-accent uppercase">
+            dr. ram saran garg
+          </h1>
+          <h1 className="font-yeseva text-sm text-white uppercase">
+            indo-german hospital
+          </h1>
+        </div>
+        
         {!isMenu ? (
           <nav className="hidden md:flex justify-between gap-12">
             <Link to={"/"}>
@@ -115,7 +114,7 @@ const NavBar = () => {
             </Link>
           </nav>
         ) : (
-          <nav className="ham grid absolute top-44 md:top-64 bg-accent w-full h-fit justify-center text-center left-0 py-4 gap-2 z-10">
+          <nav className="ham grid absolute top-44 md:top-64 bg-accent w-full h-fit justify-center text-center left-0 py-6 gap-3 z-10">
             <Link to={"/"} onClick={() => setIsMenu(false)}>
               <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">
                 Home
@@ -141,17 +140,19 @@ const NavBar = () => {
                 news
               </p>
             </Link>
-            <Link to={"/contact"} onClick={() => setIsMenu(false)}>
+
+            {/* <Link to={"/contact"} onClick={() => setIsMenu(false)}>
               <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">
                 contact
               </p>
-            </Link>
-            <button
+            </Link> */}
+
+            {/* <button
               id="appoint-btn"
               className="bg-primary px-8 py-1.5 capitalize text-accent rounded-full font-semibold"
             >
               appointment
-            </button>
+            </button> */}
           </nav>
         )}
 
