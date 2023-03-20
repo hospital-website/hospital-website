@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className=" main-footer bg-primary w-full w-90">
-      <div className="footer-up w-[90vw] max-w-5xl mx-auto flex justify-between py-12  md:flex-row flex-col ">
+      <div className="footer-up w-[90vw] max-w-4xl mx-auto flex justify-between py-12  md:flex-row flex-col ">
         <div className="footer-imp-links text-white  hidden md:block">
           <div className="mb-7">
             <p className="footer-head-name">
@@ -34,16 +34,16 @@ const Footer = () => {
         </div>
         <div className="footer-contact text-white list-none">
           <h1 className=" mb-2 md:mb-7 text-lg font-semibold">Contact Us</h1>
-          <li className="font-light">Call: (237) 681-812-255</li>
+          <li className="font-light">Call: (0120) 2824087</li>
           <li className="font-light">Email: fildineesoe@gmail.com</li>
           <li className="font-light">Address: 0123 Some place</li>
           <li className="font-light">India</li>
         </div>
-        <div className="footer-contact text-white list-none">
+        {/* <div className="footer-contact text-white list-none">
           <h1 className="mb-2 md:mb-7 mt-4 text-lg md:mt-0 font-semibold">
             Newsletter
-          </h1>
-          <div
+          </h1> */}
+        {/* <div
             id="newsletter-btn"
             className="bg-accent   py-1.5  text-primary rounded w-60 flex justify-evenly items-center "
           >
@@ -57,8 +57,8 @@ const Footer = () => {
             <p className="text-[24px] ">
               <RiSendPlaneFill />
             </p>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
 
       <hr className="bg-accent py-0.1 my-2 w-[90vw] max-w-5xl mx-auto" />
