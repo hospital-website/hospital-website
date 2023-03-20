@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Historybar from "../../Components/Historybar/Historybar";
+import ContactComp from "./../../Components/ContactComp/ContactComp";
 
 const About = () => {
   return (
@@ -246,6 +247,15 @@ const About = () => {
             className=" w-[15px] h-[15px] rounded-full bg-white cursor-pointer mx-1 "
           ></div>
         </div> */}
+      </section>
+      <section className="Contact-section mt-[36px]">
+        <p className="text-secondary uppercase font-[16px] md:font-[18px] font-bold tracking-[0.2rem] text-center">
+          get in touch
+        </p>
+        <p className="text-[30px] sm:text-[33px] md:text-[42px] font-yeseva text-primary mb-4 text-center">
+          Contact
+        </p>
+        <ContactComp />
       </section>
     </>
   );
