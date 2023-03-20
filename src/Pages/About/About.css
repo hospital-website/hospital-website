@@ -1,0 +1,44 @@
+/* ~~~~~~~QUOTE COROUSEL~~~~~~~~ */
+#qslider {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.qcorousel-body label {
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: transform 0.7s ease;
+}
+
+body {
+  overflow-x: hidden;
+}
+.about-quotes input {
+  position: fixed;
+  display: none;
+  z-index: 23;
+}
+/* #qs1 {
+  left: 48vw;
+}
+#qs3 {
+  left: 52vw;
+} */
+#qs1:checked ~ #qslide2,
+#qs2:checked ~ #qslide3 {
+  transform: translateX(100vw);
+}
+#qs2:checked ~ #qslide1,
+#qs3:checked ~ #qslide1,
+#qs3:checked ~ #qslide2 {
+  transform: translateX(-100vw);
+}
+#qs3:checked ~ #qslide1 {
+  transform: translateX(-200vw);
+}
+#qs1:checked ~ #qslide3 {
+  transform: translateX(200vw);
+}
+#qs1:checked #cbtn1 {
+  background-color: green;
+}
