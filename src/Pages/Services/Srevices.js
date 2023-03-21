@@ -1,13 +1,13 @@
-import React from "react";
-import { BiDonateBlood } from "react-icons/bi";
-import { CiBandage } from "react-icons/ci";
 import { GiHeartPlus, GiMedicalPackAlt } from "react-icons/gi";
 import { PageHead, SpecialCard } from "../../Components/Assets";
+
+import { BiDonateBlood } from "react-icons/bi";
+import { CiBandage } from "react-icons/ci";
 import ContactComp from "../../Components/ContactComp/ContactComp";
 import Historybar from "../../Components/Historybar/Historybar";
+import React from "react";
 
 const Srevices = () => {
-
   const serviceOneSrc = "/image_assets/service-01.png";
   const serviceTwoSrc = "/image_assets/service-02.png";
 
@@ -23,9 +23,20 @@ const Srevices = () => {
           />
         </article>
 
-        <article className="flex justify-center py-20 px-10  ">
-          {/* Grid Elements */}
-          <div className="md:grid mx-auto md:w-fit w-64 border border-gray-300 rounded-lg">
+        <article className="grid md:grid-cols-4 md:grid-rows-2 grid-cols-3 grid-rows-3 gap-0 w-[23rem] md:w-[48rem] mx-auto py-10 ">
+          <SpecialCard text={"X-ray"} />
+          <SpecialCard text={"Ultrasound"} />
+          <SpecialCard text={"ECG"} />
+          <SpecialCard text={"Pathology"} />
+
+          <SpecialCard text={"OT"} />
+          <SpecialCard text={"Pharmacy"} />
+          <SpecialCard text={"Emergency Services"} />
+        </article>
+
+        {/* <article className="flex justify-center py-20 px-10  "> */}
+        {/* Grid Elements */}
+        {/* <div className="md:grid mx-auto md:w-fit w-64 border border-gray-300 rounded-lg">
             <div className="grid    md:grid-flow-col md:grid-cols-1 md:grid-rows-4 grid-cols-2 grid-rows-2">
               <SpecialCard
                 cl={"aspect-[16/9] w-32 py-5"}
@@ -51,10 +62,10 @@ const Srevices = () => {
             <button className="bg-primary text-accent font-work capitalize text-base rounded-b-lg py-1 md:py-0 w-full">
               view all
             </button>
-          </div>
+          </div> */}
 
-          {/* Text Elements */}
-          <div className="hidden md:grid w-[50vw] mx-auto">
+        {/* Text Elements */}
+        {/* <div className="hidden md:grid w-[50vw] mx-auto">
             <h5 className="font-work text-2xl font-semibold text-left  ">
               A passion for putting patients first.
             </h5>
@@ -93,24 +104,22 @@ const Srevices = () => {
               Ram saran Garg (Indo-German) Hospital is to serve humanity be
               extending selfless, impartial and secular services.
             </p>
-          </div>
+          </div> */}
 
-          {/* Images */}
-          <div className="hidden md:grid gap-2">
+        {/* Images */}
+        {/* <div className="hidden md:grid gap-2">
             <img src={serviceOneSrc} alt="servicing-image" />
             <img src={serviceTwoSrc} alt="servicing-image" />
           </div>
-        </article>
+        </article> */}
       </section>
 
-
-<section id="contact" className="py-20">
+      <section id="contact" className="py-20">
         <article className="text-center mx-auto">
           <PageHead subtitle={"get in touch"} title={"Contact"} />
         </article>
         <ContactComp />
       </section>
-
     </div>
   );
 };

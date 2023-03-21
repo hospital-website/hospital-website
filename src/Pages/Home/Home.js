@@ -1,12 +1,13 @@
-import { AiOutlineCalendar, AiOutlineArrowRight } from "react-icons/ai";
-import { IoIosPeople } from "react-icons/io";
+import { AiOutlineArrowRight, AiOutlineCalendar } from "react-icons/ai";
 import { BsCashStack, BsHeartPulse } from "react-icons/bs";
-import { CiBandage } from "react-icons/ci";
-import { BiDonateBlood } from "react-icons/bi";
-import { GiHeartPlus, GiMedicalPackAlt } from "react-icons/gi";
-import { Link } from "react-router-dom";
 import { Form, PageHead, SpecialCard } from "../../Components/Assets";
+import { GiHeartPlus, GiMedicalPackAlt } from "react-icons/gi";
+
+import { BiDonateBlood } from "react-icons/bi";
+import { CiBandage } from "react-icons/ci";
 import ContactComp from "../../Components/ContactComp/ContactComp";
+import { IoIosPeople } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const homeBannerSrc = "/image_assets/home-banner.svg";
@@ -19,7 +20,7 @@ const Home = () => {
 
       <section
         id="hero"
-        className="bg-hero-mobile bg-contain sm:bg-hero w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative"
+        className="bg-hero-mobile bg-cover sm:bg-hero w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative"
       >
         {/* HERO TEXT CONTENT */}
 
@@ -40,11 +41,11 @@ const Home = () => {
             Learning the Way <br /> in Media Excellence
           </h2>
 
-          <button className="bg-accent text-primary capitalize font-work text-base rounded-full py-2 px-6 font-bold justify-self-center md:justify-self-start">
+          {/* <button className="bg-accent text-primary capitalize font-work text-base rounded-full py-2 px-6 font-bold justify-self-center md:justify-self-start">
             <Link to={'/services'}>
               our services
             </Link>
-          </button>
+          </button> */}
         </article>
 
         {/*  HERO INTERACTIVE BUTTONS */}
@@ -114,7 +115,7 @@ const Home = () => {
 
         <article className="flex justify-center py-20 px-10  ">
           {/* Grid Elements */}
-          <div className="md:grid mx-auto md:w-fit w-64 border border-gray-300 rounded-lg">
+          {/* <div className="md:grid mx-auto md:w-fit w-64 border border-gray-300 rounded-lg">
             <div className="grid    md:grid-flow-col md:grid-cols-1 md:grid-rows-4 grid-cols-2 grid-rows-2">
               <SpecialCard
                 cl={"aspect-[16/9] w-32 py-5"}
@@ -140,7 +141,7 @@ const Home = () => {
             <button className="bg-primary text-accent font-work capitalize text-base rounded-b-lg py-1 md:py-0 w-full">
               view all
             </button>
-          </div>
+          </div> */}
 
           {/* Text Elements */}
           <div className="hidden md:grid w-[50vw] mx-auto">
@@ -173,7 +174,7 @@ const Home = () => {
                 Private Wards
               </li>
             </ul>
-
+            <br />
             <p className="font-work text-base font-normal">
               The hospital not only renders high quality medical servies at a
               nominal cost that any class of society can afford, it also holds

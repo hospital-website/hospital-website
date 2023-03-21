@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FiClock, FiPhoneCall } from "react-icons/fi";
 import { MdSearch, MdSearchOff } from "react-icons/md";
+import React, { useState } from "react";
+
 import { GrLocation } from "react-icons/gr";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -79,7 +80,7 @@ const NavBar = () => {
             indo-german hospital
           </h1>
         </div>
-        
+
         {!isMenu ? (
           <nav className="hidden md:flex justify-between gap-12">
             <Link to={"/"}>
@@ -102,11 +103,11 @@ const NavBar = () => {
                 doctors
               </p>
             </Link>
-            <Link to={"/news"}>
+            {/* <Link to={"/news"}>
               <p className="nav-link capitalize font-work text-white font-light hover:font-medium hover:text-accent">
                 news
               </p>
-            </Link>
+            </Link> */}
 
             {/* <Link to={"/contact"}>
               <p className="nav-link capitalize font-work text-white font-light hover:font-medium hover:text-accent">
@@ -136,11 +137,11 @@ const NavBar = () => {
                 doctors
               </p>
             </Link>
-            <Link to={"/news"} onClick={() => setIsMenu(false)}>
+            {/* <Link to={"/news"} onClick={() => setIsMenu(false)}>
               <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">
                 news
               </p>
-            </Link>
+            </Link> */}
 
             {/* <Link to={"/contact"} onClick={() => setIsMenu(false)}>
               <p className="nav-link capitalize font-work text-primary font-normal hover:font-medium">
