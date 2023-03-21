@@ -1,5 +1,5 @@
 import { GiHeartPlus, GiMedicalPackAlt } from "react-icons/gi";
-import { PageHead, SpecialCard } from "../../Components/Assets";
+import { PageHead, ServiceCard, SpecialCard } from "../../Components/Assets";
 
 import { BiDonateBlood } from "react-icons/bi";
 import { CiBandage } from "react-icons/ci";
@@ -23,7 +23,7 @@ const Srevices = () => {
           />
         </article>
 
-        <article className="grid md:grid-cols-4 md:grid-rows-2 grid-cols-3 grid-rows-3 gap-0 w-[23rem] md:w-[48rem] mx-auto py-10 ">
+        {/* <article className="grid md:grid-cols-4 md:grid-rows-2 grid-cols-3 grid-rows-3 gap-0 w-[23rem] md:w-[48rem] mx-auto py-10 ">
           <SpecialCard text={"X-ray"} />
           <SpecialCard text={"Ultrasound"} />
           <SpecialCard text={"ECG"} />
@@ -32,6 +32,43 @@ const Srevices = () => {
           <SpecialCard text={"OT"} />
           <SpecialCard text={"Pharmacy"} />
           <SpecialCard text={"Emergency Services"} />
+        </article> */}
+        <article className="grid md:grid-cols-3 md:grid-rows-3 grid-cols-2 grid-rows-4 gap-2 md:gap-5 w-[23rem] md:w-[48rem] mx-auto py-10 ">
+          <ServiceCard
+            image={'/image_assets/serviceCard.png'}
+            title={'X-Ray'}
+            description='the description for x-ray.'
+          />
+          <ServiceCard
+            image={'/image_assets/serviceCard.png'}
+            title={'Ultrasound'}
+            description='the description for Ultrasound.'
+          />
+          <ServiceCard
+            image={'/image_assets/serviceCard.png'}
+            title={'ECG'}
+            description='the description for ECG.'
+          />
+          <ServiceCard
+            image={'/image_assets/serviceCard.png'}
+            title={'Pathology'}
+            description='the description for Pathology.'
+          />
+          <ServiceCard
+            image={'/image_assets/serviceCard.png'}
+            title={'OT'}
+            description='the description for OT.'
+          />
+          <ServiceCard
+            image={'/image_assets/serviceCard.png'}
+            title={'Pharmacy'}
+            description='the description for Pharmacy.'
+          />
+          <ServiceCard
+            image={'/image_assets/serviceCard.png'}
+            title={'Emergency Services'}
+            description='the description for Emergency Services.'
+          />
         </article>
 
         {/* <article className="flex justify-center py-20 px-10  "> */}
