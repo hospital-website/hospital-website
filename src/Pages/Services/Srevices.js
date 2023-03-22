@@ -35,39 +35,39 @@ const Srevices = () => {
         </article> */}
         <article className="grid md:grid-cols-3 md:grid-rows-3 grid-cols-2 grid-rows-4 gap-2 md:gap-5 w-[23rem] md:w-[48rem] mx-auto py-10 ">
           <ServiceCard
-            image={'/image_assets/serviceCard.png'}
-            title={'X-Ray'}
-            description='the description for x-ray.'
+            image={"/image_assets/XRay.JPG"}
+            title={"X-Ray"}
+            description="the description for x-ray."
           />
           <ServiceCard
-            image={'/image_assets/serviceCard.png'}
-            title={'Ultrasound'}
-            description='the description for Ultrasound.'
+            image={"/image_assets/equipment1.JPG"}
+            title={"Ultrasound"}
+            description="the description for Ultrasound."
           />
           <ServiceCard
-            image={'/image_assets/serviceCard.png'}
-            title={'ECG'}
-            description='the description for ECG.'
+            image={"/image_assets/equipment3.JPG"}
+            title={"ECG"}
+            description="Alongside with ventilators, Miltipara monitors,etc."
           />
           <ServiceCard
-            image={'/image_assets/serviceCard.png'}
-            title={'Pathology'}
-            description='the description for Pathology.'
+            image={"/image_assets/equipment2.JPG"}
+            title={"Pathology"}
+            description="the description for Pathology."
           />
           <ServiceCard
-            image={'/image_assets/serviceCard.png'}
-            title={'OT'}
-            description='the description for OT.'
+            image={"/image_assets/OT.JPG"}
+            title={"Operaction Theatre"}
+            description="Fully equipped with C-Arm, Laproscope and Anesthesia workstation."
           />
           <ServiceCard
-            image={'/image_assets/serviceCard.png'}
-            title={'Pharmacy'}
-            description='the description for Pharmacy.'
+            image={"/image_assets/pharmacy.JPG"}
+            title={"Pharmacy"}
+            description="Pharmacy and Drug Store is persent inside the hospital."
           />
           <ServiceCard
-            image={'/image_assets/serviceCard.png'}
-            title={'Emergency Services'}
-            description='the description for Emergency Services.'
+            image={"/image_assets/emergancyService.JPG"}
+            title={"Emergency Services"}
+            description="24-hour Ambulance services."
           />
         </article>
 
