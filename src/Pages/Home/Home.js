@@ -11,8 +11,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   const homeBannerSrc = "/image_assets/home-banner.svg";
-  const serviceOneSrc = "/image_assets/service-01.png";
-  const serviceTwoSrc = "/image_assets/service-02.png";
+  const serviceOneSrc = "/image_assets/service-01.JPG";
+  const serviceTwoSrc = "/image_assets/service-02.JPG";
 
   return (
     <>
@@ -20,7 +20,8 @@ const Home = () => {
 
       <section
         id="hero"
-        className="bg-hero-mobile bg-cover sm:bg-hero w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative"
+        className="bg-hero-mobile bg-cover sm:bg-hero
+         w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative bg-[center_top_-10rem] "
       >
         {/* HERO TEXT CONTENT */}
 
@@ -100,8 +101,13 @@ const Home = () => {
           </Link>
         </article>
       </section>
-
-      <img src={homeBannerSrc} alt="home-banner-image" className="mx-auto" />
+      <div className="w-[90vw] m-auto h-[300px] overflow-hidden ">
+        <img
+          src="/image_assets/IGDoctors.JPG"
+          alt="home-banner-image"
+          className=" m-auto cover mt-[-10vw] md:mt-[-15vw]"
+        />
+      </div>
 
       {/* OUR SERVICES SECTION */}
 
@@ -144,11 +150,14 @@ const Home = () => {
           </div> */}
 
           {/* Text Elements */}
-          <div className="hidden md:grid w-[50vw] mx-auto">
-            <h5 className="font-work text-2xl font-semibold text-left  ">
+          <div className=" md:grid md:w-[50vw] w-[90vw] mx-auto">
+            <h5 className="font-work text-2xl font-semibold text-left  my-8">
               A passion for putting patients first.
             </h5>
-            <ul className="grid list-none grid-cols-2 justify-center px-7 gap-3 py-3 font-work text-lg font-medium">
+            <ul
+              className="grid list-none grid-cols-1
+            md:grid-cols-2 justify-center px-7 gap-5 py-3 font-work text-lg font-medium"
+            >
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
                 Multispecialty OPD
               </li>
@@ -175,7 +184,7 @@ const Home = () => {
               </li>
             </ul>
             <br />
-            <p className="font-work text-base font-normal">
+            <p className="font-work text-base font-normal mb-4">
               The hospital not only renders high quality medical servies at a
               nominal cost that any class of society can afford, it also holds
               free medical camps in the neighbouring villages. The motto of Dr.
@@ -183,18 +192,29 @@ const Home = () => {
               extending selfless, impartial and secular services.
             </p>
             <p className="font-work text-base font-normal">
-              The hospital not only renders high quality medical servies at a
-              nominal cost that any class of society can afford, it also holds
-              free medical camps in the neighbouring villages. The motto of Dr.
-              Ram saran Garg (Indo-German) Hospital is to serve humanity be
-              extending selfless, impartial and secular services.
+              Regular health check-up camps are held in the nearby villages and
+              in both branches of the hospital during which free health check-up
+              is done for all.
+              <br />
+              The hospital provides the above services at nominal charges to
+              all. It also gives special discounts to the poor and arranges for
+              donations from socially aware citizens for the treatment of the
+              poor.
             </p>
           </div>
 
           {/* Images */}
           <div className="hidden md:grid gap-2">
-            <img src={serviceOneSrc} alt="servicing-image" />
-            <img src={serviceTwoSrc} alt="servicing-image" />
+            <img
+              src={serviceOneSrc}
+              alt="servicing-image"
+              className="max-w-[30vw]"
+            />
+            <img
+              src={serviceTwoSrc}
+              alt="servicing-image"
+              className="max-w-[30vw]"
+            />
           </div>
         </article>
       </section>
@@ -243,6 +263,19 @@ const Home = () => {
           <PageHead subtitle={"get in touch"} title={"Contact"} />
         </article>
         <ContactComp />
+      </section>
+
+      <section>
+        <iframe
+          className=" m-auto w-[90vw] md:h-[450px]
+            h-[300px] max-w-[600px] md:mb-16 mb-8"
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2453.280434907222!2d77.5047838330266!3d28.673556702186694!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1679473721076!5m2!1sen!2sin"
+          // width="600"
+          // height="450"
+          style={{ border: "0" }}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </>
   );

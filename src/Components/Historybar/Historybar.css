@@ -6,9 +6,9 @@
 
 .historybar::after {
   content: "";
-  background: url(/public/image_assets/doctorsgrp.png) center -100px no-repeat;
+  background: url(/public/image_assets/IGDoctors.JPG) center -100px no-repeat;
   background-size: cover;
-  background-position-y: -10vw;
+  background-position-y: -15vw;
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -16,13 +16,21 @@
   right: 0;
   position: absolute;
   z-index: -1;
+  width: 90vw;
+  max-width: 1050px;
+  margin: auto;
 }
 
 @media only screen and (max-width: 500px) {
   .historybar::after {
-    background-position-y: -5vw;
+    /* background-position-y: -5vw; */
   }
   .historybar {
     height: 30vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .historybar::after {
+    width: 100vw;
   }
 }

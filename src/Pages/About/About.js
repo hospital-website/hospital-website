@@ -11,7 +11,7 @@ const About = () => {
         <div className="about-img max-w-[40%] hidden md:block ">
           <img
             className="h-[108%] object-cover"
-            src="image_assets/doctorfemale.jpg"
+            src="image_assets/AboutMain.JPG"
             alt=""
           />
         </div>
@@ -23,32 +23,36 @@ const About = () => {
           <p className="text-[30px] sm:text-[42px] md:text-[48px] font-yeseva text-primary mb-4">
             Best Care For Your Good Health
           </p>
-          <ul className="grid list-none grid-cols-2 justify-center px-7 gap-3 py-3 font-work text-lg font-medium">
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Multispecialty OPD
-              </li>
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                24-hours service
-              </li>
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Fully equipped OT
-              </li>
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Path Lab, Minor OT
-              </li>
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                ICU with Ventilator
-              </li>
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                NICU with Infant Warmer
-              </li>
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Ultrasound and X-Ray
-              </li>
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Private Wards
-              </li>
-            </ul>
+          <ul
+            className="grid list-none grid-cols-1
+          md:grid-cols-2 justify-center px-7 gap-2
+          md:gap-3 py-3 font-work text-lg font-medium"
+          >
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              Multispecialty OPD
+            </li>
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              24-hours service
+            </li>
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              Fully equipped OT
+            </li>
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              Path Lab, Minor OT
+            </li>
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              ICU with Ventilator
+            </li>
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              NICU with Infant Warmer
+            </li>
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              Ultrasound and X-Ray
+            </li>
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              Private Wards
+            </li>
+          </ul>
           <p className="text-[16px] py-3">
             Dr. Ram Saran Garg (Indo-German) Hospital is run by a charitable
             truse, Dr. Ram Saran Garg (Indo-German) Medical Centre, The Trust
@@ -63,7 +67,50 @@ const About = () => {
           </p>
         </div>
       </section>
-
+      <p className="m-auto w-[90vw] max-w-5xl text-secondary uppercase font-[16px] md:font-[18px] font-bold  mt-6 md:mt-[60px]">
+        More about us...
+      </p>
+      <section className="m-auto w-[90vw] max-w-5xl">
+        <p className="text-[16px] py-3">
+          In 1990, Dr. Ram Saran Garg (Indo-German) Medical Centre was started
+          in Raj Nagar, Ghaziabad as an OPD (Out Patient Department) clinic with
+          X-ray. Path Lab, Physiotherapy and Dental facilities. All these
+          facilities are provided at nominal charges with free RMO consultation
+          and medicines. In 2002, a second Medical Centre was started at the
+          outskirts of Ghaziabad (on Kajipura-Dasna Road near NH-24, Delhi-Hapur
+          by-pass road) as an OPD with 3 RMOS, providing free consultation and
+          medicines along with the facilities of a pathology lab, X-ray and
+          emergency services.
+        </p>
+        <p className="text-[16px] py-3">
+          In 2009, the same is upgraded to Dr. Ram Saran Garg (Indo-German)
+          Hospital with 60 beds (proposed 120 beds), having ultra-modern
+          infrastructure and facilities with a team of qualified doctors and
+          specialists. The newly built hospital building is a symbol of
+          contemporary architecture.
+          <br />
+          <br /> The hospital, not only renders high quality medical services at
+          a nominal cost that any class of society can afford, it also holds
+          free medical camps in the neighbouring villages. The motto of Dr. Ram
+          Saran Garg (Indo-German) Hospital is to serve humanity by extending
+          selfless, impartial and secular services, which has made it popular
+          amongst the economically weaker sections of Dasna and adjoining
+          Villages.
+          <br />
+          <br /> Now the hospital is well equipped for serving the people of
+          Ghaziabad and will fill the gap of charitable medical services in the
+          district. At present the following services are available at the
+          hospital: 40 Beds in General Ward and 20 Beds in Private Ward for
+          indoor patients. <br /> <br />■ Maternity services with primary health
+          care for child and mother. <br /> <br /> ■ Operation Theatre for all
+          major and minor surgeries with I.C.U. <br /> <br /> ■ X-Ray, Ultra
+          Sound facilities, Pathology and Bio-chemical Laboratory <br />
+          <br />
+          ■Panel Doctors: Gynecologist, Orthopedic, Eye Surgeon, General
+          Physician, Surgeon, Pediatrician, Radiologist, Anesthetist,
+          Physiotherapist and other specialists.
+        </p>
+      </section>
       {/* ~~~~~~~~~~~~~Quote Section~~~~~~~~~~~~ */}
       <section className="about-quotes  mt-[48px] md:mt-[72px] ">
         <div
@@ -101,7 +148,9 @@ const About = () => {
               <label htmlFor="qs1" id="qslide1">
                 <div className="about-quote">
                   <p className="text-[20px] text-center text-white max-w-3xl mx-auto">
-                    The practice of medicine is an art, not a trade; a calling, not a business; a calling in which your heart will be exercised equally with your head. 
+                    The practice of medicine is an art, not a trade; a calling,
+                    not a business; a calling in which your heart will be
+                    exercised equally with your head.
                   </p>
                   <hr className="h-[1px] border-none bg-accent m-auto w-[20vw] my-[18px]" />
                   <p className="text-[19px] text-accent text-center mb-[64px]">
