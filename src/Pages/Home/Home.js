@@ -148,7 +148,7 @@ const Home = () => {
             <h5 className="font-work text-2xl font-semibold text-left  ">
               A passion for putting patients first.
             </h5>
-            <ul className="grid list-none grid-cols-2 justify-center px-7 font-work text-lg font-medium">
+            <ul className="grid list-none grid-cols-2 justify-center px-7 gap-3 py-3 font-work text-lg font-medium">
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
                 Multispecialty OPD
               </li>
@@ -207,7 +207,7 @@ const Home = () => {
 
         {/* specialty grids */}
 
-        <article className="grid md:grid-cols-4 md:grid-rows-3 grid-cols-3 grid-rows-4 gap-0 w-[23rem] md:w-[48rem] mx-auto py-10 ">
+        <article className="grid md:grid-cols-4 md:grid-rows-2 grid-cols-2 grid-rows-4 px-[10vw] md:px-0 mx-auto w-[90vw] md:w-[48rem] py-20">
           <SpecialCard text={"Anethesia"} />
           <SpecialCard text={"Internal Medicine"} />
           <SpecialCard text={"Pediatrics"} />
@@ -218,10 +218,10 @@ const Home = () => {
           <SpecialCard text={"Orthopedics"} />
           <SpecialCard text={"Dermatology"} />
 
-          <SpecialCard text={"Cardiology"} />
+          {/* <SpecialCard text={"Cardiology"} />
           <SpecialCard text={"Neurosurgery"} />
           <SpecialCard text={"Neuromedicine"} />
-          <SpecialCard text={"Urology"} />
+          <SpecialCard text={"Urology"} /> */}
         </article>
       </section>
 
@@ -238,7 +238,7 @@ const Home = () => {
     </section> */}
 
       {/* CONTACT SECTION */}
-      <section id="contact" className="py-20">
+      <section id="contact" className="py-10">
         <article className="text-center mx-auto">
           <PageHead subtitle={"get in touch"} title={"Contact"} />
         </article>
