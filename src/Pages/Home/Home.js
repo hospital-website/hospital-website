@@ -20,8 +20,8 @@ const Home = () => {
 
       <section
         id="hero"
-        className="bg-hero-mobile bg-cover sm:bg-hero
-         w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative bg-[center_top_-10rem] "
+        className="bg-hero bg-cover sm:bg-hero
+         w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative md:bg-[center_top_-10rem] "
       >
         {/* HERO TEXT CONTENT */}
 
@@ -37,7 +37,7 @@ const Home = () => {
           </p>
           <h2
             id="hero-text"
-            className="font-yeseva text-2xl md:text-5xl text-primary"
+            className="font-yeseva text-2xl md:text-5xl text-white"
           >
             Learning the Way <br /> in Media Excellence
           </h2>
@@ -96,7 +96,7 @@ const Home = () => {
           </p>
           <Link to={"/services"}>
             <p className="capitalize font-normal hover:font-medium hover:underline flex gap-2 justify-center items-center font-work text-secondary text-base">
-              lear more <AiOutlineArrowRight color={"#1F2B6C"} />
+              learn more <AiOutlineArrowRight color={"#1F2B6C"} />
             </p>
           </Link>
         </article>
