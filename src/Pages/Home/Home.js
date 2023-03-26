@@ -2,32 +2,53 @@ import { AiOutlineArrowRight, AiOutlineCalendar } from "react-icons/ai";
 import { BsCashStack, BsHeartPulse } from "react-icons/bs";
 import { Form, PageHead, SpecialCard } from "../../Components/Assets";
 import { GiHeartPlus, GiMedicalPackAlt } from "react-icons/gi";
-
+import SimpleImageSlider from "react-simple-image-slider";
 import { BiDonateBlood } from "react-icons/bi";
 import { CiBandage } from "react-icons/ci";
 import ContactComp from "../../Components/ContactComp/ContactComp";
 import { IoIosPeople } from "react-icons/io";
 import { Link } from "react-router-dom";
-
+import "./Home.css";
 const Home = () => {
   const homeBannerSrc = "/image_assets/home-banner.svg";
   const serviceOneSrc = "/image_assets/service-01.JPG";
   const serviceTwoSrc = "/image_assets/service-02.JPG";
+  const images = [
+    { url: "/image_assets/DSC_8680.JPG" },
+    { url: "/image_assets/DSC_8701.JPG" },
+    { url: "/image_assets/DSC_8713.JPG" },
+    { url: "/image_assets/DSC_8730.JPG" },
+    { url: "/image_assets/DSC_8743.JPG" },
+    { url: "/image_assets/DSC_8755.JPG" },
+    { url: "/image_assets/DSC_8788.JPG" },
+  ];
 
   return (
     <>
       {/* HERO SECTION */}
 
-      <section
-        id="hero"
-        className="bg-hero bg-cover sm:bg-hero
-         w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative md:bg-[center_top_-10rem] "
-      >
-        {/* HERO TEXT CONTENT */}
 
+      <section id="hero" className="relative m-auto  overflow-hidden">
+
+
+        {/* HERO TEXT CONTENT */}
+        {/* bg-hero-mobile bg-cover sm:bg-hero
+         w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative bg-[center_top_-10rem]  */}
+        <div className="image-slider  m-auto  z-[-120] absolute  top-[-200px] overflow-hidden">
+          <SimpleImageSlider
+            width={"100vw"}
+            height={"900px"}
+            images={images}
+            showBullets={false}
+            slideDuration={2}
+            autoPlay={true}
+            style={{ top: "-100px" }}
+            showNavs={false}
+          />
+        </div>
         <article
           id="hero-text"
-          className="grid place-items-center py-20 gap-2 text-center md:text-left md:justify-start md:px-52 md:py-16"
+          className="grid place-items-center py-20 gap-2 text-center md:text-left md:justify-start md:px-52 md:py-16  z-100 md:mb-[260px] mb-[240px]"
         >
           <p
             id="pre-text"
@@ -80,10 +101,13 @@ const Home = () => {
 
       {/* WELCOME TO MEDICAL SECTION  */}
 
-      <section id="welcome" className="gird place-items-center w-full py-10">
+      <section
+        id="welcome"
+        className="gird place-items-center w-full pt-4 pb-10 "
+      >
         <article
           id="hero-text"
-          className="grid gap-2 text-center mx-auto w-[90%] max-w-3xl md:py-20"
+          className="grid gap-2 text-center mx-auto w-[90%] max-w-3xl md:pb-20"
         >
           <PageHead
             subtitle={"welcome to DR.RS Garg (IG) Hospital"}
