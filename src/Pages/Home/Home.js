@@ -27,10 +27,7 @@ const Home = () => {
     <>
       {/* HERO SECTION */}
 
-
       <section id="hero" className="relative m-auto  overflow-hidden">
-
-
         {/* HERO TEXT CONTENT */}
         {/* bg-hero-mobile bg-cover sm:bg-hero
          w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative bg-[center_top_-10rem]  */}
@@ -48,26 +45,23 @@ const Home = () => {
         </div>
         <article
           id="hero-text"
-          className="grid place-items-center py-20 gap-2 text-center md:text-left md:justify-start md:px-52 md:py-16  z-100 md:mb-[260px] mb-[240px]"
+          className="grid place-items-center py-20 gap-2 text-center md:text-left md:justify-start md:px-52 md:py-16  z-100 md:mb-[260px] mb-[240px] rounded"
         >
-          <p
-            id="pre-text"
-            className="font-work uppercase text-secondary font-semibold text-sm md:justify-self-start md:text-lg"
-          >
-            caring for life
-          </p>
-          <h2
-            id="hero-text"
-            className="font-yeseva text-2xl md:text-5xl text-white"
-          >
-            Learning the Way <br /> in Medical Excellence
-          </h2>
-
-          {/* <button className="bg-accent text-primary capitalize font-work text-base rounded-full py-2 px-6 font-bold justify-self-center md:justify-self-start">
-            <Link to={'/services'}>
-              our services
-            </Link>
-          </button> */}
+          <div className="home-text-main grid gap-2 w-fit rounded p-5 ">
+            <p
+              id="pre-text"
+              className="font-work uppercase text-secondary font-semibold text-sm md:justify-self-start md:text-lg"
+            >
+              caring for life
+            </p>
+            <h2
+              id="hero-text"
+              className="font-yeseva text-2xl md:text-5xl text-primary"
+            >
+              Learning the Way <br /> in Medical Excellence
+            </h2>
+                      
+          </div>
         </article>
 
         {/*  HERO INTERACTIVE BUTTONS */}
@@ -183,7 +177,7 @@ const Home = () => {
             md:grid-cols-2 justify-center px-7 gap-5 py-3 font-work text-lg font-medium"
             >
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Multispecialty  OPD
+                Multispecialty OPD
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
                 24-hours service
