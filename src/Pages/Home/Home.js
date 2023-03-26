@@ -27,7 +27,10 @@ const Home = () => {
     <>
       {/* HERO SECTION */}
 
+
       <section id="hero" className="relative m-auto  overflow-hidden">
+
+
         {/* HERO TEXT CONTENT */}
         {/* bg-hero-mobile bg-cover sm:bg-hero
          w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative bg-[center_top_-10rem]  */}
@@ -55,9 +58,9 @@ const Home = () => {
           </p>
           <h2
             id="hero-text"
-            className="font-yeseva text-2xl md:text-5xl text-primary"
+            className="font-yeseva text-2xl md:text-5xl text-white"
           >
-            Learning the Way <br /> in Media Excellence
+            Learning the Way <br /> in Medical Excellence
           </h2>
 
           {/* <button className="bg-accent text-primary capitalize font-work text-base rounded-full py-2 px-6 font-bold justify-self-center md:justify-self-start">
@@ -117,7 +120,7 @@ const Home = () => {
           </p>
           <Link to={"/services"}>
             <p className="capitalize font-normal hover:font-medium hover:underline flex gap-2 justify-center items-center font-work text-secondary text-base">
-              lear more <AiOutlineArrowRight color={"#1F2B6C"} />
+              learn more <AiOutlineArrowRight color={"#1F2B6C"} />
             </p>
           </Link>
         </article>
@@ -180,7 +183,7 @@ const Home = () => {
             md:grid-cols-2 justify-center px-7 gap-5 py-3 font-work text-lg font-medium"
             >
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Multispecialty OPD
+                Multispecialty  OPD
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
                 24-hours service
@@ -205,14 +208,14 @@ const Home = () => {
               </li>
             </ul>
             <br />
-            <p className="font-work text-base font-normal mb-4">
-              The hospital not only renders high quality medical servies at a
+            <p className="text-justify font-work text-base font-normal py-4 mb-4">
+              The hospital not only renders high quality medical services at a
               nominal cost that any class of society can afford, it also holds
               free medical camps in the neighbouring villages. The motto of Dr.
               Ram saran Garg (Indo-German) Hospital is to serve humanity be
               extending selfless, impartial and secular services.
             </p>
-            <p className="font-work text-base font-normal">
+            <p className="text-justify font-work text-base font-normal">
               Regular health check-up camps are held in the nearby villages and
               in both branches of the hospital during which free health check-up
               is done for all.
@@ -249,10 +252,10 @@ const Home = () => {
         {/* specialty grids */}
 
         <article className="grid md:grid-cols-4 md:grid-rows-2 grid-cols-2 grid-rows-4 px-[10vw] md:px-0 mx-auto w-[90vw] md:w-[48rem] py-20">
-          <SpecialCard text={"Anethesia"} />
+          <SpecialCard text={"Anesthesia"} />
           <SpecialCard text={"Internal Medicine"} />
           <SpecialCard text={"Pediatrics"} />
-          <SpecialCard text={"Gynaecology"} />
+          <SpecialCard text={"Gynecology"} />
 
           <SpecialCard text={"Radiology"} />
           <SpecialCard text={"Pathology"} />

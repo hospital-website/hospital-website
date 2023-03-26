@@ -47,22 +47,26 @@ const Srevices = () => {
           <ServiceCard
             image={"/image_assets/OT.JPG"}
             title={"ECG"}
-            description="Alongside with ventilators, Miltipara monitors,etc."
+            description="Alongside with ventilators, Multipara monitors,etc."
           />
           <ServiceCard
+
             image={"/image_assets/ecg.JPG"}
+
             title={"Pathology"}
             description="the description for Pathology."
           />
           <ServiceCard
+
             image={"/image_assets/operationT.jpg"}
             title={"Operaction Theatre"}
             description="Fully equipped with C-Arm, Laproscope and Anesthesia workstation."
+
           />
           <ServiceCard
             image={"/image_assets/pharmacy.JPG"}
             title={"Pharmacy"}
-            description="Pharmacy and Drug Store is persent inside the hospital."
+            description="Pharmacy and Drug Store is present inside the hospital."
           />
           <ServiceCard
             image={"/image_assets/emergancyService.JPG"}
