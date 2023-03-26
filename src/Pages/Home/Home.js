@@ -114,7 +114,7 @@ const Home = () => {
           </p>
           <Link to={"/services"}>
             <p className="capitalize font-normal hover:font-medium hover:underline flex gap-2 justify-center items-center font-work text-secondary text-base">
-              lear more <AiOutlineArrowRight color={"#1F2B6C"} />
+              learn more <AiOutlineArrowRight color={"#1F2B6C"} />
             </p>
           </Link>
         </article>
@@ -202,14 +202,14 @@ const Home = () => {
               </li>
             </ul>
             <br />
-            <p className="font-work text-base font-normal mb-4">
-              The hospital not only renders high quality medical servies at a
+            <p className="text-justify font-work text-base font-normal py-4 mb-4">
+              The hospital not only renders high quality medical services at a
               nominal cost that any class of society can afford, it also holds
               free medical camps in the neighbouring villages. The motto of Dr.
               Ram saran Garg (Indo-German) Hospital is to serve humanity be
               extending selfless, impartial and secular services.
             </p>
-            <p className="font-work text-base font-normal">
+            <p className="text-justify font-work text-base font-normal">
               Regular health check-up camps are held in the nearby villages and
               in both branches of the hospital during which free health check-up
               is done for all.
@@ -246,10 +246,10 @@ const Home = () => {
         {/* specialty grids */}
 
         <article className="grid md:grid-cols-4 md:grid-rows-2 grid-cols-2 grid-rows-4 px-[10vw] md:px-0 mx-auto w-[90vw] md:w-[48rem] py-20">
-          <SpecialCard text={"Anethesia"} />
+          <SpecialCard text={"Anesthesia"} />
           <SpecialCard text={"Internal Medicine"} />
           <SpecialCard text={"Pediatrics"} />
-          <SpecialCard text={"Gynaecology"} />
+          <SpecialCard text={"Gynecology"} />
 
           <SpecialCard text={"Radiology"} />
           <SpecialCard text={"Pathology"} />
