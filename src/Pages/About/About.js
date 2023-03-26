@@ -55,15 +55,6 @@ const About = () => {
         </p>
       </section>
 
-      <section className="about-intro max-w-5xl w-[90vw] m-auto flex flex-row  mt-16 ">
-        <div className="about-img max-w-[40%] hidden md:block ">
-          <img
-            className="h-[108%] object-cover"
-            src="image_assets/AboutMain.JPG"
-            alt=""
-          />
-        </div>
-      </section>
       <section className="about-intro max-w-5xl w-[90vw] m-auto gap-10 flex flex-row  mt-16 ">
         <div className="about-intro-text md:ml-8 ">
           {/* <p className="text-secondary uppercase font-[16px] md:font-[18px] font-bold tracking-[0.2rem]">
