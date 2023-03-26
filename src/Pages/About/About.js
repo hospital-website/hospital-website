@@ -7,6 +7,54 @@ const About = () => {
   return (
     <>
       <Historybar page="About" pageData="About Us" />
+
+      <section className="m-auto w-[90vw] max-w-5xl">
+        <p className="m-auto w-[90vw] max-w-5xl text-secondary uppercase text-[22px] md:text-[28px] font-bold  mt-6 md:mt-[60px]">
+          DR.RS GARG INDO-GERMAN HOSPITAL
+        </p>
+        <p className="text-[16px] py-3 text-justify">
+          In 1990, Dr. Ram Saran Garg (Indo-German) Medical Centre was started
+          in Raj Nagar, Ghaziabad as an OPD (Out Patient Department) clinic with
+          X-ray. Path Lab, Physiotherapy and Dental facilities. All these
+          facilities are provided at nominal charges with free RMO consultation
+          and medicines. In 2002, a second Medical Centre was started at the
+          outskirts of Ghaziabad (on Kajipura-Dasna Road near NH-24, Delhi-Hapur
+          by-pass road) as an OPD with 3 RMOS, providing free consultation and
+          medicines along with the facilities of a pathology lab, X-ray and
+          emergency services.
+        </p>
+        <p className="text-[16px] py-3 text-justify">
+          In 2009, the same is upgraded to Dr. Ram Saran Garg (Indo-German)
+          Hospital with 60 beds (proposed 120 beds), having ultra-modern
+          infrastructure and facilities with a team of qualified doctors and
+          specialists. The newly built hospital building is a symbol of
+          contemporary architecture.
+          <br />
+          <br /> The hospital, not only renders high quality medical services at
+          a nominal cost that any class of society can afford, it also holds
+          free medical camps in the neighbouring villages. The motto of Dr. Ram
+          Saran Garg (Indo-German) Hospital is to serve humanity by extending
+          selfless, impartial and secular services, which has made it popular
+          amongst the economically weaker sections of Dasna and adjoining
+          Villages.
+          <br />
+          <br /> Now the hospital is well equipped for serving the people of
+          Ghaziabad and will fill the gap of charitable medical services in the
+          district. At present the following services are available at the
+          hospital:
+          <br />
+          <br />
+          ■ 40 Beds in General Ward and 20 Beds in Private Ward for indoor
+          patients. <br /> <br />■ Maternity services with primary health care
+          for child and mother. <br /> <br /> ■ Operation Theatre for all major
+          and minor surgeries with I.C.U. <br /> <br /> ■ X-Ray, Ultra Sound
+          facilities, Pathology and Bio-chemical Laboratory <br />
+          <br />■ Panel Doctors: Gynecologist, Orthopedic, Eye Surgeon, General
+          Physician, Surgeon, Pediatrician, Radiologist, Anesthetist,
+          Physiotherapist and other specialists.
+        </p>
+      </section>
+
       <section className="about-intro max-w-5xl w-[90vw] m-auto flex flex-row  mt-16 ">
         <div className="about-img max-w-[40%] hidden md:block ">
           <img
@@ -17,10 +65,10 @@ const About = () => {
         </div>
 
         <div className="about-intro-text md:ml-8 ">
-          <p className="text-secondary uppercase font-[16px] md:font-[18px] font-bold tracking-[0.2rem]">
+          {/* <p className="text-secondary uppercase font-[16px] md:font-[18px] font-bold tracking-[0.2rem]">
             dr.RS Garg indo-german hospital
-          </p>
-          <p className="text-[30px] sm:text-[42px] md:text-[48px] font-yeseva text-primary mb-4">
+          </p> */}
+          <p className="text-[30px] sm:text-[42px] md:text-[48px] font-yeseva text-primary mb-4 md:mt-4">
             Best Care For Your Good Health
           </p>
           <ul
@@ -53,64 +101,21 @@ const About = () => {
               Private Wards
             </li>
           </ul>
-          <p className="text-[16px] py-3">
+          <p className="text-[16px] py-3 text-justify">
             Dr. Ram Saran Garg (Indo-German) Hospital is run by a charitable
             truse, Dr. Ram Saran Garg (Indo-German) Medical Centre, The Trust
             was established in 1985. The Trust run a 60 bedded multispecility
             hospital & Trauma Centre at Dasna, Ghaziabad and a miltispecility
             Polyslinic with Day Care at Raj Nagar, Ghaziabad.
           </p>
-          <p className="text-[16px] py-3">
+          <p className="text-[16px] py-3 text-justify">
             The hospital has 11 doctors including consultants in the fields of
             Internal Medicine, Pediatrics, Gynaecology, Radiology, Pathology and
             General Surgery in addition to resident doctors.
           </p>
         </div>
       </section>
-      <p className="m-auto w-[90vw] max-w-5xl text-secondary uppercase font-[16px] md:font-[18px] font-bold  mt-6 md:mt-[60px]">
-        More about us...
-      </p>
-      <section className="m-auto w-[90vw] max-w-5xl">
-        <p className="text-[16px] py-3">
-          In 1990, Dr. Ram Saran Garg (Indo-German) Medical Centre was started
-          in Raj Nagar, Ghaziabad as an OPD (Out Patient Department) clinic with
-          X-ray. Path Lab, Physiotherapy and Dental facilities. All these
-          facilities are provided at nominal charges with free RMO consultation
-          and medicines. In 2002, a second Medical Centre was started at the
-          outskirts of Ghaziabad (on Kajipura-Dasna Road near NH-24, Delhi-Hapur
-          by-pass road) as an OPD with 3 RMOS, providing free consultation and
-          medicines along with the facilities of a pathology lab, X-ray and
-          emergency services.
-        </p>
-        <p className="text-[16px] py-3">
-          In 2009, the same is upgraded to Dr. Ram Saran Garg (Indo-German)
-          Hospital with 60 beds (proposed 120 beds), having ultra-modern
-          infrastructure and facilities with a team of qualified doctors and
-          specialists. The newly built hospital building is a symbol of
-          contemporary architecture.
-          <br />
-          <br /> The hospital, not only renders high quality medical services at
-          a nominal cost that any class of society can afford, it also holds
-          free medical camps in the neighbouring villages. The motto of Dr. Ram
-          Saran Garg (Indo-German) Hospital is to serve humanity by extending
-          selfless, impartial and secular services, which has made it popular
-          amongst the economically weaker sections of Dasna and adjoining
-          Villages.
-          <br />
-          <br /> Now the hospital is well equipped for serving the people of
-          Ghaziabad and will fill the gap of charitable medical services in the
-          district. At present the following services are available at the
-          hospital: 40 Beds in General Ward and 20 Beds in Private Ward for
-          indoor patients. <br /> <br />■ Maternity services with primary health
-          care for child and mother. <br /> <br /> ■ Operation Theatre for all
-          major and minor surgeries with I.C.U. <br /> <br /> ■ X-Ray, Ultra
-          Sound facilities, Pathology and Bio-chemical Laboratory <br />
-          <br />
-          ■Panel Doctors: Gynecologist, Orthopedic, Eye Surgeon, General
-          Physician, Surgeon, Pediatrician, Radiologist, Anesthetist,
-          Physiotherapist and other specialists.
-        </p>
-      </section>
+
       {/* ~~~~~~~~~~~~~Quote Section~~~~~~~~~~~~ */}
       <section className="about-quotes  mt-[48px] md:mt-[72px] ">
         <div

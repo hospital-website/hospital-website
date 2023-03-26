@@ -45,17 +45,17 @@ const Srevices = () => {
             description="the description for Ultrasound."
           />
           <ServiceCard
-            image={"/image_assets/equipment3.JPG"}
+            image={"/image_assets/OT.JPG"}
             title={"ECG"}
             description="Alongside with ventilators, Miltipara monitors,etc."
           />
           <ServiceCard
-            image={"/image_assets/equipment2.JPG"}
+            image={"/image_assets/ecg.JPG"}
             title={"Pathology"}
             description="the description for Pathology."
           />
           <ServiceCard
-            image={"/image_assets/OT.JPG"}
+            image={"/image_assets/operationT.jpg"}
             title={"Operaction Theatre"}
             description="Fully equipped with C-Arm, Laproscope and Anesthesia workstation."
           />
