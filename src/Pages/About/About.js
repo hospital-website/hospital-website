@@ -51,22 +51,11 @@ const About = () => {
           facilities, Pathology and Bio-chemical Laboratory <br />
           <br />■ Panel Doctors: Gynecologist, Orthopedic, Eye Surgeon, General
           Physician, Surgeon, Pediatrician, Radiologist, Anesthetist,
-          Physiotherapist and other specialists.
+          Physiotherapist and other specialists.
         </p>
       </section>
 
-      <section className="about-intro max-w-5xl w-[90vw] m-auto flex flex-row  mt-16 ">
-        <div className="about-img max-w-[40%] hidden md:block ">
-          <img
-            className="h-[108%] object-cover"
-            src="image_assets/AboutMain.JPG"
-            alt=""
-          />
-        </div>
-
-      </section>
       <section className="about-intro max-w-5xl w-[90vw] m-auto gap-10 flex flex-row  mt-16 ">
-
         <div className="about-intro-text md:ml-8 ">
           {/* <p className="text-secondary uppercase font-[16px] md:font-[18px] font-bold tracking-[0.2rem]">
             dr.RS Garg indo-german hospital
@@ -106,12 +95,10 @@ const About = () => {
           </ul>
           <p className="text-[16px] py-3 text-justify">
             Dr. Ram Saran Garg (Indo-German) Hospital is run by a charitable
-
             trust, Dr. Ram Saran Garg (Indo-German) Medical Centre, The Trust
             was established in 1985. The Trust run a 60 bedded multispecialty
             hospital & Trauma Centre at Dasna, Ghaziabad and a multispecialty
             Polyclinic with Day Care at Raj Nagar, Ghaziabad.
-
           </p>
           <p className="text-[16px] py-3 text-justify">
             The hospital has 11 doctors including consultants in the fields of
