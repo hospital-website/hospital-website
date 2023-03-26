@@ -45,26 +45,23 @@ const Home = () => {
         </div>
         <article
           id="hero-text"
-          className="grid place-items-center py-20 gap-2 text-center md:text-left md:justify-start md:px-52 md:py-16  z-100 md:mb-[260px] mb-[240px]"
+          className="grid place-items-center py-20 gap-2 text-center md:text-left md:justify-start md:px-52 md:py-16  z-100 md:mb-[260px] mb-[240px] rounded"
         >
-          <p
-            id="pre-text"
-            className="font-work uppercase text-secondary font-semibold text-sm md:justify-self-start md:text-lg"
-          >
-            caring for life
-          </p>
-          <h2
-            id="hero-text"
-            className="font-yeseva text-2xl md:text-5xl text-primary"
-          >
-            Learning the Way <br /> in Media Excellence
-          </h2>
-
-          {/* <button className="bg-accent text-primary capitalize font-work text-base rounded-full py-2 px-6 font-bold justify-self-center md:justify-self-start">
-            <Link to={'/services'}>
-              our services
-            </Link>
-          </button> */}
+          <div className="home-text-main grid gap-2 w-fit rounded p-5 ">
+            <p
+              id="pre-text"
+              className="font-work uppercase text-secondary font-semibold text-sm md:justify-self-start md:text-lg"
+            >
+              caring for life
+            </p>
+            <h2
+              id="hero-text"
+              className="font-yeseva text-2xl md:text-5xl text-primary"
+            >
+              Learning the Way <br /> in Medical Excellence
+            </h2>
+                      
+          </div>
         </article>
 
         {/*  HERO INTERACTIVE BUTTONS */}
