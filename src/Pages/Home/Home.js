@@ -184,14 +184,14 @@ const Home = () => {
               </li>
             </ul>
             <br />
-            <p className="font-work text-base font-normal mb-4">
+            <p className="text-justify font-work text-base font-normal py-4 mb-4">
               The hospital not only renders high quality medical services at a
               nominal cost that any class of society can afford, it also holds
               free medical camps in the neighbouring villages. The motto of Dr.
               Ram saran Garg (Indo-German) Hospital is to serve humanity be
               extending selfless, impartial and secular services.
             </p>
-            <p className="font-work text-base font-normal">
+            <p className="text-justify font-work text-base font-normal">
               Regular health check-up camps are held in the nearby villages and
               in both branches of the hospital during which free health check-up
               is done for all.
