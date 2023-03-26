@@ -7,14 +7,7 @@ const About = () => {
   return (
     <>
       <Historybar page="About" pageData="About Us" />
-      <section className="about-intro max-w-5xl w-[90vw] m-auto flex flex-row  mt-16 ">
-        <div className="about-img max-w-[40%] hidden md:block ">
-          <img
-            className="h-[108%] object-cover"
-            src="image_assets/AboutMain.JPG"
-            alt=""
-          />
-        </div>
+      <section className="about-intro max-w-5xl w-[90vw] m-auto gap-10 flex flex-row  mt-16 ">
 
         <div className="about-intro-text md:ml-8 ">
           <p className="text-secondary uppercase font-[16px] md:font-[18px] font-bold tracking-[0.2rem]">
@@ -53,18 +46,26 @@ const About = () => {
               Private Wards
             </li>
           </ul>
-          <p className="text-[16px] py-3">
+          <p className="text-[16px] text-justify py-6">
             Dr. Ram Saran Garg (Indo-German) Hospital is run by a charitable
-            truse, Dr. Ram Saran Garg (Indo-German) Medical Centre, The Trust
-            was established in 1985. The Trust run a 60 bedded multispecility
-            hospital & Trauma Centre at Dasna, Ghaziabad and a miltispecility
-            Polyslinic with Day Care at Raj Nagar, Ghaziabad.
+            trust, Dr. Ram Saran Garg (Indo-German) Medical Centre, The Trust
+            was established in 1985. The Trust run a 60 bedded multispecialty 
+            hospital & Trauma Centre at Dasna, Ghaziabad and a multispecialty 
+            Polyclinic with Day Care at Raj Nagar, Ghaziabad.
           </p>
-          <p className="text-[16px] py-3">
+          <p className="text-[16px] text-justify py-3">
             The hospital has 11 doctors including consultants in the fields of
-            Internal Medicine, Pediatrics, Gynaecology, Radiology, Pathology and
+            Internal Medicine, Pediatrics, Gynecology, Radiology, Pathology and
             General Surgery in addition to resident doctors.
           </p>
+        </div>
+
+        <div className="about-img max-w-[40%] hidden md:block ">
+          <img
+            className="h-[108%] object-cover"
+            src="image_assets/AboutMain.JPG"
+            alt=""
+          />
         </div>
       </section>
       <p className="m-auto w-[90vw] max-w-5xl text-secondary uppercase font-[16px] md:font-[18px] font-bold  mt-6 md:mt-[60px]">
