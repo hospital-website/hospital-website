@@ -35,7 +35,10 @@ const NavBar = () => {
               <h3 className="font-work font-medium uppercase text-primary">
                 Emergency
               </h3>
-              <h4 className="font-work text-secondary">(0120) 2824087</h4>
+              <h4 className="font-work text-secondary">
+                8395861267 <br />
+                9873016614
+              </h4>
             </div>
           </div>
           <div className="h-top-info-container flex items-center px-0 md:px-2">
