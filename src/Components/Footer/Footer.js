@@ -34,9 +34,16 @@ const Footer = () => {
         </div>
         <div className="footer-contact text-white list-none">
           <h1 className=" mb-2 md:mb-7 text-lg font-semibold">Contact Us</h1>
-          <li className="font-light">Call: (0120) 2824087</li>
-          <li className="font-light">Email: rsgargig@gmail.com</li>
-          <li className="font-light">Address: Kazipura-Dasna Road</li>
+          <li className="font-light">
+            <span className="font-normal">Call:</span> 8395861267,9873016614
+          </li>
+          <li className="font-light">
+            <span className="font-normal">Email:</span>rsgargig@gmail.com
+          </li>
+          <li className="font-light">
+            <span className="font-normal">Address:</span>
+            Kazipura-Dasna Road
+          </li>
           <li className="font-light">Ghaziabad-201009</li>
           <li className="font-light">India</li>
         </div>
