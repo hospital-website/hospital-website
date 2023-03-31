@@ -59,7 +59,7 @@ const Srevices = () => {
           <ServiceCard
 
             image={"/image_assets/operationT.jpg"}
-            title={"Operaction Theatre"}
+            title={"Operation Theatre"}
             description="Fully equipped with C-Arm, Laproscope and Anesthesia workstation."
 
           />
