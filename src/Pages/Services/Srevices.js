@@ -51,9 +51,11 @@ const Srevices = () => {
             description={serviceItem.desc}
           />
           <ServiceCard
+
             image={serviceItem.img}
             title={serviceItem.ServiceName}
             description={serviceItem.desc}
+
           />
           <ServiceCard
             image={serviceItem.img}

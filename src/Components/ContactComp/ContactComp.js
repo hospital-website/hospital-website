@@ -5,9 +5,9 @@ import { ContactCard } from '../Assets'
 
 const ContactComp = () => {
   return <div className='mx-auto w-fit gap-2 md:w-[52rem] md:gap-0 py-10 grid items-center justify-center grid-rows-2 grid-cols-2 md:grid-rows-1 md:grid-cols-4'>
-    <ContactCard icon={<FiPhoneCall size={30} />} title='emergency' info_one={'(0120) 2824087'} />
+    <ContactCard icon={<FiPhoneCall size={30} />} title='emergency' info_one={'8395861267'} info_two={'9873016614'}/>
     <ContactCard icon={<CiLocationOn size={30} />} title='location' info_one={'Kazipura-Dasna Road'} info_two={'Ghaziabad-201009'} />
-    <ContactCard icon={<AiOutlineMail size={30} />} title='email' info_one={'fildineeesoe@gmail.com'} info_two={'myebstudios@gmail.com'} />
+    <ContactCard icon={<AiOutlineMail size={30} />} title='email' info_one={'rsgargig@gmail.com'} />
     <ContactCard icon={<FiClock size={30} />} title='working hours' info_one={'Mon-Sat 09:00-20:00'} info_two={'24/7 Emergency Service'} />
   </div>
 }
