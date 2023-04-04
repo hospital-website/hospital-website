@@ -41,6 +41,7 @@ const NavBar = () => {
               </h4>
             </div>
           </div>
+
           <div className="h-top-info-container flex items-center px-0 md:px-2">
             <div className="icon px-2">
               <FiClock size={25} />

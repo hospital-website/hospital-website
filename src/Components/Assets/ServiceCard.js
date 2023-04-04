@@ -1,25 +1,30 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { BiFirstAid } from "react-icons/bi";
 
-const ServiceCard = ({ image, title, description, link }) => {
+const ServiceCard = ({ image, title, description }) => {
   return (
-    <div className="aspect-[9/12] border border-gray-200 shadow-xl grid justify-between overflow-hidden">
-      <div className="w-full aspect-square">
-        <img src={image} alt="" className="w-full h-full object-cover" />
+    <div className=" service-card  aspect-[10/18] md:aspect-[10/16] md:w-[240px]  max-w-[300px] md:max-w-[400px] shadow-service    my-4 md:mx-4 mx-1 rounded-lg  relative ">
+      <div className="h-[56%]">
+        <img
+          src="./image_assets/ecg.JPG"
+          alt=""
+          className="h-[100%] object-cover"
+        />
       </div>
-      <p className="px-2 font-work capitalize text-lg font-medium text-primary">
-        {title}
-      </p>
-      <p className="px-2 text-xs">{description}</p>
-
-      {/* <a
-        href={link ? link : "#"}
-        target="_blank"
-        className="flex p-2 items-center gap-2 text-xs text-secondary hover:underline"
+      <div
+        className="service-card-icon h-[14%] w-[25%] rounded-full bg-primary text-accent flex items-center justify-center text-[120%] md:text-[24px] absolute top-[56%] left-[70%] translate-y-[-50%]
+       "
       >
-        Learn More
-        <AiOutlineArrowRight />
-      </a> */}
-      
+        <BiFirstAid />
+      </div>
+      <div className="service-card-text  h-[44%] px-4">
+        <p className=" pt-5   md:pt-12 text-primary   text-[18px] font-semibold tracking-wide md:tracking-widest">
+          {title}
+        </p>
+        <p className="  md:py-2 text-[14px] leading-4 text-justify ">
+          {description}
+        </p>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,25 @@
+.doctor-rotate-card {
+  transition: all 800ms;
+  backface-visibility: hidden;
+}
+.doctor-rotate-card:hover {
+  transform: rotateY(180deg);
+}
+.doctor-card-back {
+  transition: all 800ms;
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.doctor-card-back {
+  transform: rotateY(180deg);
+}
+.doctor-card:hover .doctor-rotate-card {
+  transform: rotateY(-180deg);
+}
+.doctor-card:hover .doctor-card-back {
+  transform: rotateY(0);
+}

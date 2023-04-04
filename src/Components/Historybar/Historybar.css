@@ -6,7 +6,7 @@
 
 .historybar::after {
   content: "";
-  background: url(/public/image_assets/IGDoctors.JPG) center -100px no-repeat;
+  background: url(/public/image_assets/IGDoctors.webp) center -100px no-repeat;
   background-size: cover;
   background-position-y: -15vw;
   opacity: 0.5;
