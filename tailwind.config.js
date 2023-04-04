@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        service: "2px 2px 3px 3px rgba(0, 0, 0, 0.3)",
+      },
       fontFamily: {
         yeseva: ["Yeseva One", "cursive"],
         work: ["Work Sans", "sans-serif"],

@@ -10,17 +10,12 @@ import { IoIosPeople } from "react-icons/io";
 import { Link } from "react-router-dom";
 import "./Home.css";
 const Home = () => {
-  const homeBannerSrc = "/image_assets/home-banner.svg";
-  const serviceOneSrc = "/image_assets/service-01.JPG";
-  const serviceTwoSrc = "/image_assets/service-02.JPG";
+  const serviceOneSrc = "/image_assets/service-01.webp";
+  const serviceTwoSrc = "/image_assets/service-02.webp";
   const images = [
-    { url: "/image_assets/DSC_8680.JPG" },
-    { url: "/image_assets/DSC_8701.JPG" },
-    { url: "/image_assets/DSC_8713.JPG" },
-    { url: "/image_assets/DSC_8730.JPG" },
-    { url: "/image_assets/DSC_8743.JPG" },
-    { url: "/image_assets/DSC_8755.JPG" },
-    { url: "/image_assets/DSC_8788.JPG" },
+    { url: "/image_assets/DSC_8784.webp" },
+    { url: "/image_assets/DSC_8788.webp" },
+    { url: "/image_assets/DSC_8762.webp" },
   ];
 
   return (
@@ -29,8 +24,6 @@ const Home = () => {
 
       <section id="hero" className="relative m-auto  overflow-hidden">
         {/* HERO TEXT CONTENT */}
-        {/* bg-hero-mobile bg-cover sm:bg-hero
-         w-full md:h-[60vh] bg-no-repeat sm:bg-cover relative bg-[center_top_-10rem]  */}
         <div className="image-slider  m-auto  z-[-120] absolute  top-[-200px] overflow-hidden">
           <SimpleImageSlider
             width={"100vw"}
@@ -121,7 +114,7 @@ const Home = () => {
       </section>
       <div className="w-[90vw] m-auto h-[300px] overflow-hidden ">
         <img
-          src="/image_assets/IGDoctors.JPG"
+          src="/image_assets/IGDoctors.webp"
           alt="home-banner-image"
           className=" m-auto cover mt-[-10vw] md:mt-[-15vw]"
         />
