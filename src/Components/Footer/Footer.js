@@ -25,12 +25,24 @@ const Footer = () => {
           </p>
         </div>
         {/* gfdg */}
-        <div className="footer-imp-links text-white list-none hidden lg:block ">
+        <div className="footer-imp-links text-white list-none hidden lg:block  ">
           <h1 className="mb-7 text-lg font-semibold">Important Links</h1>
           {/* <li className="font-light">Appointment</li> */}
-          <li className="font-light">Doctors</li>
-          <li className="font-light">Services</li>
-          <li className="font-light">About Us</li>
+          <ul
+            onClick={() =>
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+            }
+          >
+            <li className="font-light">
+              <Link to="/doctors">Doctors</Link>
+            </li>
+            <li className="font-light">
+              <Link to="/services">Services</Link>
+            </li>
+            <li className="font-light">
+              <Link to="/about">About us</Link>
+            </li>
+          </ul>
         </div>
         <div className="footer-contact text-white list-none">
           <h1 className=" mb-2 md:mb-7 text-lg font-semibold">Contact Us</h1>

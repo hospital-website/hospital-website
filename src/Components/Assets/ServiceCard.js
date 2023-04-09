@@ -13,7 +13,7 @@ const ServiceCard = (props) => {
               : props.details.img
           }
           alt=""
-          className="h-[100%] object-cover"
+          className="h-[100%] object-cover rounded-t-lg"
         />
       </div>
       <div

@@ -18,7 +18,7 @@ const Doctors = () => {
           list.push({ id: doc.id, ...doc.data() });
         });
         setData(list);
-        console.log(list);
+        // console.log(list);
       },
       (error) => {
         console.log(error);
@@ -34,7 +34,8 @@ const Doctors = () => {
     <div>
       <Historybar page="doctors" pageData="Our Doctors" />
 
-      <div className="card-container flex my-10 items-center justify-around md:flex-row flex-col gap-y-5 gap-x-4 md:gap-y-0 max-w-4xl m-auto">
+      <div className=" grid md:grid-cols-3  grid-cols-1    max-w-5xl   w-[90vw]    py-10  m-auto gap-y-12 items-center m-auto">
+        {/* <div className="card-container flex my-10 items-center justify-around flex-wrap   gap-y-5 gap-x-4 md:gap-x-32 md:gap-y-0 max-w-3xl m-auto"> */}
         {data.map((item) => {
           {
             return <DoctorCard key={item.id} details={item} />;
