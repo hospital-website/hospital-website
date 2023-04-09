@@ -12,7 +12,7 @@ const DoctorCard = (props) => {
   };
 
   return (
-    <div className=" doctor-card relative perspective-9">
+    <div className=" doctor-card m-auto perspective-9 relative">
       <div className=" doctor-rotate-card aspect-[9/13] md:w-[15vw] w-[60vw] max-w-[300px] md:max-w-[400px] border  shadow-sm  justify-between bg-accent rounded-lg border-4 border-primary border-opacity-60  ">
         <div className=" aspect-square h-[75%] w-full flex justify-center  ">
           <img

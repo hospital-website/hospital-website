@@ -29,7 +29,7 @@ const Srevices = () => {
           list.push({ id: doc.id, ...doc.data() });
         });
         setData(list);
-        console.log(list);
+        // console.log(list);
       },
       (error) => {
         console.log(error);
@@ -55,7 +55,7 @@ const Srevices = () => {
         {/* <div className="flex flex-wrap  justify-around  max-w-5xl   w-[90vw] mx-auto m-auto  py-10  "> */}
         <div className="grid md:grid-cols-3  grid-cols-2    max-w-5xl   w-[90vw] mx-auto m-auto  py-10  ">
           {data.map((item) => {
-            return <ServiceCard details={item} ket={item.id} />;
+            return <ServiceCard details={item} key={item.id} />;
           })}
         </div>
       </section>
