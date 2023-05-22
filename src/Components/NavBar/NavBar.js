@@ -33,11 +33,11 @@ const NavBar = () => {
             </div>
             <div className="text text-xs md:text-base">
               <h3 className="font-work font-medium uppercase text-primary">
-                Emergency
+                Emergency (24 hrs)
               </h3>
               <h4 className="font-work text-secondary">
-                8395861267 <br />
-                9873016614
+                8851106009 <br />
+                8851123299
               </h4>
             </div>
           </div>
@@ -51,7 +51,7 @@ const NavBar = () => {
                 work hours
               </h3>
               <h4 className="font-work text-secondary capitalize">
-                09:00-20:00 everyday
+                08:00-18:00 everyday
               </h4>
             </div>
           </div>

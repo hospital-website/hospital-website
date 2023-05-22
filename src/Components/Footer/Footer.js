@@ -47,10 +47,12 @@ const Footer = () => {
         <div className="footer-contact text-white list-none">
           <h1 className=" mb-2 md:mb-7 text-lg font-semibold">Contact Us</h1>
           <li className="font-light">
-            <span className="font-normal">Call:</span> 8395861267,9873016614
+            <span className="font-normal">Call:</span> 8851106009 <br />
+            8851123299
           </li>
           <li className="font-light">
-            <span className="font-normal">Email:</span>rsgargig@gmail.com
+            <span className="font-normal">Email:</span>
+            rsg.indogerman.hospital@gmail.com
           </li>
           <li className="font-light">
             <span className="font-normal">Address:</span>
