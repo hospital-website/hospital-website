@@ -31,9 +31,9 @@ const NavBar = () => {
             <div className="icon px-2">
               <FiPhoneCall size={25} />
             </div>
-            <div className="text text-xs md:text-base">
+            <div className="text text-xs md:text-base px-1/2">
               <h3 className="font-work font-medium uppercase text-primary">
-                Emergency (24 hrs)
+                Emergency
               </h3>
               <h4 className="font-work text-secondary">
                 8851106009 <br />
@@ -46,12 +46,12 @@ const NavBar = () => {
             <div className="icon px-2">
               <FiClock size={25} />
             </div>
-            <div className="text text-xs md:text-base">
+            <div className="text text-xs md:text-base px-1/2">
               <h3 className="font-work font-medium uppercase text-primary">
                 work hours
               </h3>
               <h4 className="font-work text-secondary capitalize">
-                08:00-18:00 <br /> everyday
+                24 Hours <br /> Emergency
               </h4>
             </div>
           </div>
@@ -59,7 +59,7 @@ const NavBar = () => {
             <div className="icon px-2">
               <GrLocation size={25} />
             </div>
-            <div className="text text-xs md:text-base">
+            <div className="text text-xs md:text-base px-1/2">
               <h3 className="font-work font-medium uppercase text-primary">
                 location
               </h3>
