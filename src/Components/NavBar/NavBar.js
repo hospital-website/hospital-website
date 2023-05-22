@@ -51,7 +51,7 @@ const NavBar = () => {
                 work hours
               </h3>
               <h4 className="font-work text-secondary capitalize">
-                08:00-18:00 everyday
+                08:00-18:00 <br /> everyday
               </h4>
             </div>
           </div>
@@ -64,7 +64,7 @@ const NavBar = () => {
                 location
               </h3>
               <h4 className="font-work text-secondary uppercase">
-                akgec, ghaziabad
+                Kazipura-Dasna Road <br /> Ghaziabad
               </h4>
             </div>
           </div>

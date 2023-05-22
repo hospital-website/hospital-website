@@ -44,8 +44,7 @@ const About = () => {
           hospital:
           <br />
           <br />
-          ■ 40 Beds in General Ward and 20 Beds in Private Ward for indoor
-          patients. <br /> <br />■ Maternity services with primary health care
+          ■ 40 Bedded wards, both general and private. <br /> <br />■ Maternity services with primary health care
           for child and mother. <br /> <br /> ■ Operation Theatre for all major
           and minor surgeries with I.C.U. <br /> <br /> ■ X-Ray, Ultra Sound
           facilities, Pathology and Bio-chemical Laboratory <br />
@@ -69,7 +68,7 @@ const About = () => {
           md:gap-3 py-3 font-work text-lg font-medium"
           >
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-              Multispeciality OPD
+              Multispeciality OPD (08:00 - 22:00)
             </li>
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
               24-hours service
@@ -81,9 +80,9 @@ const About = () => {
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
               ICU with Ventilator
             </li>
-            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+            {/* <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
               NICU
-            </li>
+            </li> */}
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
               Ultrasound & X-Ray
             </li>
