@@ -38,7 +38,7 @@ const Home = () => {
         </div>
         <article
           id="hero-text"
-          className="grid place-items-center py-20 gap-2 text-center md:text-left md:justify-start md:px-52 md:py-16  z-100 md:mb-[260px] mb-[240px] rounded"
+          className="grid place-items-center py-20 gap-2 text-center md:text-left md:justify-end md:px-32 md:py-16  z-100 md:mt-[230px] md:mb-[110px] mb-[90px] rounded"
         >
           <div className="home-text-main grid gap-2 w-fit rounded p-5 ">
             <p
@@ -170,28 +170,29 @@ const Home = () => {
             md:grid-cols-2 justify-center px-7 gap-5 py-3 font-work text-lg font-medium"
             >
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Multispecialty OPD
+                Multispeciality OPD
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
                 24-hours service
               </li>
+
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Fully equipped OT
-              </li>
-              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Path Lab, Minor OT
+                Path Lab
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
                 ICU with Ventilator
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                NICU with Infant Warmer
+                NICU
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
                 Ultrasound and X-Ray
               </li>
               <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-                Private Wards
+                General & Private Wards
+              </li>
+              <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+                Fully Equipped Major OT With C- Arm & Minor OT
               </li>
             </ul>
             <br />
@@ -247,7 +248,7 @@ const Home = () => {
           <SpecialCard text={"Radiology"} />
           <SpecialCard text={"Pathology"} />
           <SpecialCard text={"Orthopedics"} />
-          <SpecialCard text={"Dermatology"} />
+          <SpecialCard text={"General Surgeon"} />
 
           {/* <SpecialCard text={"Cardiology"} />
           <SpecialCard text={"Neurosurgery"} />

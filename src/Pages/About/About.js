@@ -69,35 +69,36 @@ const About = () => {
           md:gap-3 py-3 font-work text-lg font-medium"
           >
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-              Multispecialty OPD
+              Multispeciality OPD
             </li>
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
               24-hours service
             </li>
+
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-              Fully equipped OT
-            </li>
-            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-              Path Lab, Minor OT
+              Path Lab
             </li>
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
               ICU with Ventilator
             </li>
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-              NICU with Infant Warmer
+              NICU
             </li>
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-              Ultrasound and X-Ray
+              Ultrasound & X-Ray
             </li>
             <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
-              Private Wards
+              General & Private Wards
+            </li>
+            <li className="before:content-[''] before:w-5 before:h-5 relative before:absolute before:top-0 before:left-0 before:-translate-x-7 before:translate-y-1 before:rounded-full before:bg-secondary">
+              Fully Equipped Major OT With C- Arm & Minor OT
             </li>
           </ul>
           <p className="text-[16px] py-3 text-justify">
             Dr. Ram Saran Garg (Indo-German) Hospital is run by a charitable
             trust, Dr. Ram Saran Garg (Indo-German) Medical Centre, The Trust
-            was established in 1985. The Trust run a 60 bedded multispecialty
-            hospital & Trauma Centre at Dasna, Ghaziabad and a multispecialty
+            was established in 1985. The Trust run a 60 bedded Multispeciality
+            hospital & Trauma Centre at Dasna, Ghaziabad and a Multispeciality
             Polyclinic with Day Care at Raj Nagar, Ghaziabad.
           </p>
           <p className="text-[16px] py-3 text-justify">
